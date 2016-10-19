@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘DDDownloadGzipTest’ do
+ pod 'Alamofire'
+ pod 'tarkit'
+ pod 'NVHTarGzip'
+end

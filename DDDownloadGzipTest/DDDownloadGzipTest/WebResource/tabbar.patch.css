@@ -1,0 +1,25 @@
+body {
+  background-color: #fff; }
+
+.follow-container .follow_btn {
+  padding: 0 6px;
+  color: #ff4356;
+  border: 1px solid #ff4356;
+  min-width: 53px; }
+  .follow-container .follow_btn:before {
+    margin-right: 6px; }
+.follow-container .followed {
+  color: #fff;
+  background-color: #ff4356; }
+
+.night {
+  background-color: #202124; }
+  .night .follow-container .follow_btn {
+    border-color: #8f323c;
+    color: #8f323c; }
+    .night .follow-container .follow_btn:before {
+      background-image: url(button_follow@2x.png);
+      opacity: 0.5; }
+  .night .follow-container .followed {
+    color: #202124;
+    background-color: #8f323c; }

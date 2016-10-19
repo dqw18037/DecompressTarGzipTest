@@ -1,0 +1,6 @@
+framework module Pods_DDDownloadGzipTest {
+  umbrella header "Pods-DDDownloadGzipTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
