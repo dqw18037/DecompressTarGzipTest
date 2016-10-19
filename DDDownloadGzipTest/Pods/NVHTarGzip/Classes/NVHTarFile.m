@@ -301,11 +301,11 @@
                                                           contents:contents
                                                         attributes:nil]; //Write the file on filesystem
     } else if ([object isKindOfClass:[NSFileHandle class]]) {
-        [self printTest];
+//        [self printTest];
         created = [[NSFileManager defaultManager] createFileAtPath:path contents:nil attributes:nil];
 //        created = [[NSFileManager defaultManager] fileExistsAtPath:path];
 
-        [self printTest];
+//        [self printTest];
         if (created) {
             NSFileHandle *destinationFile = [NSFileHandle fileHandleForWritingAtPath:path];
             [object seekToFileOffset:location];
