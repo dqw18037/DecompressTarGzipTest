@@ -301,11 +301,7 @@
                                                           contents:contents
                                                         attributes:nil]; //Write the file on filesystem
     } else if ([object isKindOfClass:[NSFileHandle class]]) {
-//        [self printTest];
         created = [[NSFileManager defaultManager] createFileAtPath:path contents:nil attributes:nil];
-//        created = [[NSFileManager defaultManager] fileExistsAtPath:path];
-
-//        [self printTest];
         if (created) {
             NSFileHandle *destinationFile = [NSFileHandle fileHandleForWritingAtPath:path];
             [object seekToFileOffset:location];
@@ -330,33 +326,7 @@
 #endif
     }
 }
-- (void)printTest {
-    
-    NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0] stringByAppendingString:@"/DecompressDir"];
-    NSString *filePath = [path stringByAppendingString:@"/article.js"];
-    NSString *filePaht2 = [path stringByAppendingString:@"/article.css"];
-    NSDictionary *attrs = [[NSFileManager defaultManager] attributesOfItemAtPath:filePath error:nil];
-    NSData *data = [NSData dataWithContentsOfFile:filePath];
-    NSString *string = [[NSString alloc]initWithData:data encoding:NSUTF8StringEncoding];
-    
-    NSData *data2 = [NSData dataWithContentsOfFile:filePaht2];
-    NSString *string2 = [[NSString alloc]initWithData:data2 encoding:NSUTF8StringEncoding];
-    NSError *error = nil;
-    NSArray *fileNames = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:path error:&error];
-    NSLog(@"%@", error);
-    NSLog(@"%@", fileNames);
-    NSLog(@"%@", attrs[@"NSFileSize"]);
-//    NSLog(@"%@", string);
-//    NSLog(@"----\n %@ \n ----", string2);
-//     let toPath = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0] + "/DecompressDir"
-//    do {
-//        let fileNames = try  NSFileManager.defaultManager().contentsOfDirectoryAtPath(toPath)
-//        print(fileNames)
-//        
-//    } catch {
-//        
-//    }
-}
+
 + (NSData *)dataForObject:(id)object inRange:(NSRange)range orLocation:(unsigned long long)location andLength:(unsigned long long)length
 {
     if ([object isKindOfClass:[NSData class]]) {

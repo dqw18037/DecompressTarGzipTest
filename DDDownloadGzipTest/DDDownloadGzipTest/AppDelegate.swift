@@ -24,53 +24,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem()
         splitViewController.delegate = self
 
-        printFile(toPath())
-        NVHTarTest()
-        printFile(toPath())
-        
+//        printFile(toPath())
+//        NVHTarTest()
+//        printFile(toPath())
+        WebResourceManager.sharedManager().downloadTest()
 
         return true
     }
-    
-    private func NVHTarTest() {
-        let sourceP = sourcePath()
-        let toP = toPath()
-        NVHTarGzip.sharedInstance().unTarGzipFileAtPath(sourceP, toPath: toP) { (error) in
-            self.printFile(self.toPath())
-            self.printFile(self.mainBundlePath())
-            self.printFile(self.webPaht())
-            if let error = error {
-                print("解压错误\(error)")
-            }
-        }
-    }
-    
-    private func printFile(path: String) {
-        let exist = NSFileManager.defaultManager().fileExistsAtPath(path)
-        if exist {
-            do {
-                let fileNames = try  NSFileManager.defaultManager().contentsOfDirectoryAtPath(path)
-                print(fileNames)
-            } catch {
-                print(error)
-            }
-        } else {
-            print("\(path) 不存在")
-        }
-    }
-    private func mainBundlePath() -> String {
-        return NSBundle.mainBundle().bundlePath
-    }
-    private func webPaht() -> String {
-        return NSBundle.mainBundle().bundlePath + "/WebResource"
-    }
-    private func sourcePath() -> String {
-        return NSBundle.mainBundle().bundlePath + "/WebResource.tar"
-    }
-    
-    private func toPath() -> String {
-        return NSBundle.mainBundle().bundlePath + "/WebResource/temp"
-    }
+
     
     
     func applicationWillResignActive(application: UIApplication) {

@@ -9,6 +9,7 @@
 import UIKit
 import Alamofire
 import tarkit
+import NVHTarGzip
 
 //
 //typealias UpdateInfoHandler = (filesMd5: String?, URLString: String?, error: NewsMaster.Error?) -> Void
@@ -112,17 +113,29 @@ extension WebResourceManager {
     
     func downloadTest() {
         createTemporaryDirectoryIfNeed()
-//        printDirectory(webResourceDirectoryPath())
-        printDirectory(temporaryDirectoryPath())
-        requestWebResources("http://s.ipstatp.com/test/ios/WebResource.tar.gz") {[weak self] (error) in
+        printDirectory(downloadPaht())
+        printDirectory(tempPath())
+        requestWebResources("http://s0.ipstatp.com/test/ios/WebResource_1019.tar.gz") {[weak self] (error) in
             if error == nil {
-                if let fileNames = self?.temporaryFiles() {
-                    self!.printDirectory(self!.temporaryDirectoryPath())
-                    self!.decompressFile()
-                    self!.printDirectory(self!.temporaryDirectoryPath())
-
-                }
+                self?.NVHDecompress()
             }
+        }
+    }
+    
+    private func NVHDecompress() {
+        printDirectory(defaultPath())
+        printDirectory(downloadPaht())
+        printDirectory(tempPath())
+        let sourcePath = downloadPaht() + "/WebResource.tar.gz"
+//        let sourcePath = NSBundle.mainBundle().bundlePath + "/WebResource.tar.gz"
+        let toPath = tempPath()
+        NVHTarGzip.sharedInstance().unTarGzipFileAtPath(sourcePath, toPath: toPath) { (error) in
+            if let error = error {
+                print(error)
+            }
+            self.printDirectory(self.defaultPath())
+            self.printDirectory(self.downloadPaht())
+            self.printDirectory(self.tempPath())
         }
     }
     
@@ -131,31 +144,17 @@ extension WebResourceManager {
 //            print(path)
             let files = try NSFileManager.defaultManager().contentsOfDirectoryAtPath(path)
            try files.forEach({ (fileName) in
-                let path = temporaryFilePath(fileName)
-               let attr = try fileManager.attributesOfItemAtPath(path)
+                let filePath = path + "/\(fileName)"
+               let attr = try fileManager.attributesOfItemAtPath(filePath)
                 let size = attr["NSFileSize"]
-                let data = try NSData(contentsOfFile: path, options: .DataReadingUncached)
-            
+//                let size = 0
+                let data = try NSData(contentsOfFile: filePath, options: .DataReadingUncached)
                 print(" \(fileName) = \(size) = \(data.length)")
-//            let string = try String(contentsOfFile: path)
-//            print(string)
             })
         } catch {
             
         }
     }
-    
-    private func decompressFile() {
-        let tempPath = temporaryFilePath("gzip.tar.gz")
-        let toPath = temporaryDirectoryPath()
-        do {
-            try  DCTar.decompressFileAtPath(tempPath, toPath: toPath)
-        } catch {
-            print(error)
-        }
-        
-    }
-    
     
 }
 
@@ -164,7 +163,7 @@ extension WebResourceManager {
     
     
     private func requestWebResources(URLString: String, resourcessHandler: WebResourcesHandler) {
-        let temporaryFilePath = temporaryDirectoryPath() + "/gzip.tar.gz"
+        let temporaryFilePath = downloadPaht() + "/WebResource.tar.gz"
 //        let headers = ["User-Agent": NewsMaster.getWebViewUserAgent(), "referer": ""]
         Alamofire.download(.GET, URLString, headers: nil, destination: {(temporaryURL, response) in
         return NSURL(fileURLWithPath: temporaryFilePath)
@@ -322,10 +321,18 @@ extension WebResourceManager {
     // Directory
     private func createTemporaryDirectoryIfNeed() -> Bool {
         var result = true
-        let path = temporaryDirectoryPath()
+        let path = tempPath()
         if !fileManager.fileExistsAtPath(path) {
             do {
                 try fileManager.createDirectoryAtPath(path, withIntermediateDirectories: true, attributes: nil)
+            } catch {
+                result = false
+            }
+        }
+        let path2 = downloadPaht()
+        if !fileManager.fileExistsAtPath(path2) {
+            do {
+                try fileManager.createDirectoryAtPath(path2, withIntermediateDirectories: true, attributes: nil)
             } catch {
                 result = false
             }
@@ -361,6 +368,66 @@ extension WebResourceManager {
     }
 
     private func temporaryDirectoryPath() -> String {
-        return webResourceDirectoryPath() + "/TemporaryResource"
+        return webResourceDirectoryPath() + "/Temp"
+    }
+    
+    private func defaultPath() -> String {
+        return webResourceDirectoryPath() + "/Default"
+    }
+    private func downloadPaht() -> String {
+        return webResourceDirectoryPath() + "/Download"
+    }
+    private func tempPath() -> String {
+        return webResourceDirectoryPath() + "/Temp"
+    }
+    
+    
+//    private func tempPaht() -> String {
+//        return webResourceDirectoryPath() +
+//    }
+    
+    
+}
+
+extension WebResourceManager {
+    
+    private func NVHTarTest() {
+        let sourceP = sourcePath()
+        let toP = toPath()
+        NVHTarGzip.sharedInstance().unTarGzipFileAtPath(sourceP, toPath: toP) { (error) in
+            self.printFile(self.toPath())
+            self.printFile(self.mainBundlePath())
+            self.printFile(self.webPaht())
+            if let error = error {
+                print("解压错误\(error)")
+            }
+        }
+    }
+    
+    private func printFile(path: String) {
+        let exist = NSFileManager.defaultManager().fileExistsAtPath(path)
+        if exist {
+            do {
+                let fileNames = try  NSFileManager.defaultManager().contentsOfDirectoryAtPath(path)
+                print(fileNames)
+            } catch {
+                print(error)
+            }
+        } else {
+            print("\(path) 不存在")
+        }
+    }
+    private func mainBundlePath() -> String {
+        return NSBundle.mainBundle().bundlePath
+    }
+    private func webPaht() -> String {
+        return NSBundle.mainBundle().bundlePath + "/WebResource"
+    }
+    private func sourcePath() -> String {
+        return NSBundle.mainBundle().bundlePath + "/WebResource.tar"
+    }
+    
+    private func toPath() -> String {
+        return NSBundle.mainBundle().bundlePath + "/WebResource/temp"
     }
 }
