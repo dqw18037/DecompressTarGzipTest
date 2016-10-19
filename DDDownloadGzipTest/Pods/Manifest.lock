@@ -1,18 +1,24 @@
 PODS:
   - Alamofire (3.5.0)
+  - Godzippa (1.1.0)
+  - Light-Untar (0.3.0)
   - NVHTarGzip (1.0.1)
   - tarkit (0.1.3)
 
 DEPENDENCIES:
   - Alamofire
+  - Godzippa
+  - Light-Untar
   - NVHTarGzip
   - tarkit
 
 SPEC CHECKSUMS:
   Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  Godzippa: 21621e8ddc2f1521db473a72b48148c3f0e79d76
+  Light-Untar: e901c312974d36f3910aec73436296a5a3faf799
   NVHTarGzip: 74cc227b902e5725900d37eb6d79b57e93005a73
   tarkit: 5f924f8d5979fcbd14024f4b748c2cb4762f4c20
 
-PODFILE CHECKSUM: 57604462cc38e7ba59f3c1960a757d2683df076a
+PODFILE CHECKSUM: 5d0d3011286dbdb4f9f374d0e3031efb95341501
 
 COCOAPODS: 1.0.1

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		59053F741DB77033002ED42A /* WebResource in Resources */ = {isa = PBXBuildFile; fileRef = 59053F731DB77033002ED42A /* WebResource */; };
 		59053F761DB776E1002ED42A /* WebResource.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 59053F751DB776E1002ED42A /* WebResource.tar.gz */; };
+		59053F781DB782A9002ED42A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 59053F771DB782A9002ED42A /* libz.tbd */; };
 		5959E2B71DB654CA0094355C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959E2B61DB654CA0094355C /* AppDelegate.swift */; };
 		5959E2B91DB654CA0094355C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959E2B81DB654CA0094355C /* MasterViewController.swift */; };
 		5959E2BB1DB654CA0094355C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959E2BA1DB654CA0094355C /* DetailViewController.swift */; };
@@ -44,6 +45,8 @@
 		4D179DACC8ACD4206C53B79A /* Pods-DDDownloadGzipTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDownloadGzipTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDDownloadGzipTest/Pods-DDDownloadGzipTest.release.xcconfig"; sourceTree = "<group>"; };
 		59053F731DB77033002ED42A /* WebResource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WebResource; sourceTree = "<group>"; };
 		59053F751DB776E1002ED42A /* WebResource.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = WebResource.tar.gz; sourceTree = "<group>"; };
+		59053F771DB782A9002ED42A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		59053F791DB782D7002ED42A /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
 		5959E2B31DB654CA0094355C /* DDDownloadGzipTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDDownloadGzipTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5959E2B61DB654CA0094355C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5959E2B81DB654CA0094355C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59053F781DB782A9002ED42A /* libz.tbd in Frameworks */,
 				9C33B61FA0B9AEB66441E349 /* Pods_DDDownloadGzipTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +104,8 @@
 		4A538EB733D2CAF1007F4DB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				59053F791DB782D7002ED42A /* libz.1.1.3.tbd */,
+				59053F771DB782A9002ED42A /* libz.tbd */,
 				219B6D043B03EC8DB53BD37F /* Pods_DDDownloadGzipTest.framework */,
 			);
 			name = Frameworks;
@@ -500,6 +506,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DDDownloadGzipTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Godzippa\"",
+					"-framework",
+					"\"Light_Untar\"",
+					"-framework",
+					"\"NVHTarGzip\"",
+					"-framework",
+					"\"tarkit\"",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteDance.SwiftTest.DDDownloadGzipTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DD-Bridgeing-Header.h";
@@ -513,6 +533,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DDDownloadGzipTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"Godzippa\"",
+					"-framework",
+					"\"Light_Untar\"",
+					"-framework",
+					"\"NVHTarGzip\"",
+					"-framework",
+					"\"tarkit\"",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteDance.SwiftTest.DDDownloadGzipTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DD-Bridgeing-Header.h";

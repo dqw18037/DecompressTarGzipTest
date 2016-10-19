@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E8594554B8D76DF916CF695B24A3CD4E'
-               BlueprintName = 'tarkit'
+               BlueprintIdentifier = 'A4EBE848A47E124A96CA0D7A0C7A5096'
+               BlueprintName = 'Godzippa'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'tarkit.framework'>
+               BuildableName = 'Godzippa.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

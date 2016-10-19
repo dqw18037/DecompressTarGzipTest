@@ -5,4 +5,6 @@ target ‘DDDownloadGzipTest’ do
  pod 'Alamofire'
  pod 'tarkit'
  pod 'NVHTarGzip'
+ pod 'Godzippa'
+ pod 'Light-Untar'
 end
