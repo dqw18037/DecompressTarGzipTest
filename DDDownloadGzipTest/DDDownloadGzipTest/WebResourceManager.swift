@@ -10,8 +10,7 @@ import UIKit
 import Alamofire
 import tarkit
 import NVHTarGzip
-import Godzippa
-import Light_Untar
+import SSZipArchive
 //
 //typealias UpdateInfoHandler = (filesMd5: String?, URLString: String?, error: NewsMaster.Error?) -> Void
 typealias WebResourcesHandler = (error: NSError?) -> Void
@@ -123,29 +122,17 @@ extension WebResourceManager {
         }
     }
     
-    private func GodzippaLightUntarDecompress() {
-        printDirectory(defaultPath())
+     func zipDecompress() {
+        createTemporaryDirectoryIfNeed()
+//        printDirectory(defaultPath())
         printDirectory(downloadPaht())
         printDirectory(tempPath())
-        let sourcePath = downloadPaht() + "/WebResource.tar.gz"
-        
-        //        let sourcePath = NSBundle.mainBundle().bundlePath + "/WebResource.tar.gz"
-        
+//        let sourcePath = downloadPaht() + "/WebResource.zip"
+        let sourcePath = NSBundle.mainBundle().bundlePath + "/WebResource.zip"
         let toPath = tempPath()
-        
-        
-        
-        
-        NVHTarGzip.sharedInstance().unTarGzipFileAtPath(sourcePath, toPath: toPath) { (error) in
-            if let error = error {
-                print(error)
-            }
-            self.printDirectory(self.defaultPath())
-            self.printDirectory(self.downloadPaht())
-            self.printDirectory(self.tempPath())
-        }
-        
-        
+        SSZipArchive.unzipFileAtPath(sourcePath, toDestination: toPath)
+        printDirectory(downloadPaht())
+        printDirectory(tempPath())
     }
     
     private func NVHDecompress() {

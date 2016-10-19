@@ -10,6 +10,7 @@
 		59053F741DB77033002ED42A /* WebResource in Resources */ = {isa = PBXBuildFile; fileRef = 59053F731DB77033002ED42A /* WebResource */; };
 		59053F761DB776E1002ED42A /* WebResource.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = 59053F751DB776E1002ED42A /* WebResource.tar.gz */; };
 		59053F781DB782A9002ED42A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 59053F771DB782A9002ED42A /* libz.tbd */; };
+		59053F7E1DB79C89002ED42A /* WebResource.zip in Resources */ = {isa = PBXBuildFile; fileRef = 59053F7D1DB79C89002ED42A /* WebResource.zip */; };
 		5959E2B71DB654CA0094355C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959E2B61DB654CA0094355C /* AppDelegate.swift */; };
 		5959E2B91DB654CA0094355C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959E2B81DB654CA0094355C /* MasterViewController.swift */; };
 		5959E2BB1DB654CA0094355C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5959E2BA1DB654CA0094355C /* DetailViewController.swift */; };
@@ -47,6 +48,7 @@
 		59053F751DB776E1002ED42A /* WebResource.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = WebResource.tar.gz; sourceTree = "<group>"; };
 		59053F771DB782A9002ED42A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		59053F791DB782D7002ED42A /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		59053F7D1DB79C89002ED42A /* WebResource.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = WebResource.zip; sourceTree = "<group>"; };
 		5959E2B31DB654CA0094355C /* DDDownloadGzipTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDDownloadGzipTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5959E2B61DB654CA0094355C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5959E2B81DB654CA0094355C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				5959E2E61DB655710094355C /* WebResourceManager.swift */,
 				5959E2BC1DB654CA0094355C /* Main.storyboard */,
 				5959E2BF1DB654CA0094355C /* Assets.xcassets */,
+				59053F7D1DB79C89002ED42A /* WebResource.zip */,
 				59053F751DB776E1002ED42A /* WebResource.tar.gz */,
 				5959E2C11DB654CA0094355C /* LaunchScreen.storyboard */,
 				5959E2C41DB654CA0094355C /* Info.plist */,
@@ -283,6 +286,7 @@
 				5959E2C01DB654CA0094355C /* Assets.xcassets in Resources */,
 				59053F741DB77033002ED42A /* WebResource in Resources */,
 				59053F761DB776E1002ED42A /* WebResource.tar.gz in Resources */,
+				59053F7E1DB79C89002ED42A /* WebResource.zip in Resources */,
 				5959E2BE1DB654CA0094355C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,14 +515,9 @@
 					"-framework",
 					"\"Alamofire\"",
 					"-framework",
-					"\"Godzippa\"",
-					"-framework",
-					"\"Light_Untar\"",
-					"-framework",
 					"\"NVHTarGzip\"",
 					"-framework",
 					"\"tarkit\"",
-					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteDance.SwiftTest.DDDownloadGzipTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,14 +537,9 @@
 					"-framework",
 					"\"Alamofire\"",
 					"-framework",
-					"\"Godzippa\"",
-					"-framework",
-					"\"Light_Untar\"",
-					"-framework",
 					"\"NVHTarGzip\"",
 					"-framework",
 					"\"tarkit\"",
-					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.byteDance.SwiftTest.DDDownloadGzipTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

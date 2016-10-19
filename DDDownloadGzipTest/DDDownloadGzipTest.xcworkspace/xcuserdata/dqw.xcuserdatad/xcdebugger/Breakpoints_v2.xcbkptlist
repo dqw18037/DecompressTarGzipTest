@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DDDownloadGzipTest/WebResourceManager.swift"
-            timestampString = "498561573.836846"
+            timestampString = "498568210.714803"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
             landmarkName = "downloadTest()"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DDDownloadGzipTest/WebResourceManager.swift"
-            timestampString = "498561573.836846"
+            timestampString = "498568210.714803"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
             landmarkName = "downloadTest()"
             landmarkType = "5">
          </BreakpointContent>
@@ -122,60 +122,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DDDownloadGzipTest/WebResourceManager.swift"
-            timestampString = "498562835.14496"
+            timestampString = "498571627.604331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
-            landmarkName = "NVHDecompress()"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DDDownloadGzipTest.WebResourceManager.(NVHDecompress in _D8A86DF4637DE136D86D275066BE8AA1) () -&gt; ()"
-                  moduleName = "DDDownloadGzipTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dqw/Documents/TestDemo/DecompressTarGzipTest/DDDownloadGzipTest/DDDownloadGzipTest/WebResourceManager.swift"
-                  timestampString = "498562939.040644"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "132"
-                  endingLineNumber = "132"
-                  offsetFromSymbolStart = "264">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DDDownloadGzipTest.WebResourceManager.((NVHDecompress in _D8A86DF4637DE136D86D275066BE8AA1) () -&gt; ()).(closure #1)"
-                  moduleName = "DDDownloadGzipTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dqw/Documents/TestDemo/DecompressTarGzipTest/DDDownloadGzipTest/DDDownloadGzipTest/WebResourceManager.swift"
-                  timestampString = "498562939.040777"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "19">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DDDownloadGzipTest/WebResourceManager.swift"
-            timestampString = "498562835.14496"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
-            landmarkName = "NVHDecompress()"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "zipDecompress()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -186,60 +138,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DDDownloadGzipTest/WebResourceManager.swift"
-            timestampString = "498562835.14496"
+            timestampString = "498572450.583206"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "133"
             endingLineNumber = "133"
-            landmarkName = "NVHDecompress()"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DDDownloadGzipTest.WebResourceManager.((NVHDecompress in _D8A86DF4637DE136D86D275066BE8AA1) () -&gt; ()).(closure #1)"
-                  moduleName = "DDDownloadGzipTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dqw/Documents/TestDemo/DecompressTarGzipTest/DDDownloadGzipTest/DDDownloadGzipTest/WebResourceManager.swift"
-                  timestampString = "498562939.042081"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "19">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "DDDownloadGzipTest.WebResourceManager.((NVHDecompress in _D8A86DF4637DE136D86D275066BE8AA1) () -&gt; ()).(closure #1)"
-                  moduleName = "DDDownloadGzipTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/dqw/Documents/TestDemo/DecompressTarGzipTest/DDDownloadGzipTest/DDDownloadGzipTest/WebResourceManager.swift"
-                  timestampString = "498562939.042197"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "133"
-                  endingLineNumber = "133"
-                  offsetFromSymbolStart = "56">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DDDownloadGzipTest/WebResourceManager.swift"
-            timestampString = "498562835.14496"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
-            landmarkName = "printDirectory(_:)"
+            landmarkName = "zipDecompress()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -250,12 +154,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DDDownloadGzipTest/WebResourceManager.swift"
-            timestampString = "498562835.14496"
+            timestampString = "498572459.681053"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
-            landmarkName = "NVHDecompress()"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "zipDecompress()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

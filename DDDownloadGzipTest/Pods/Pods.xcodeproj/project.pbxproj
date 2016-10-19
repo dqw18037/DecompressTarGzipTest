@@ -7,205 +7,250 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0036D34ABCD708AF31000D7538550239 /* NVHTarGzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 5972499BA3329FB2BE3B3054EAE1FAD1 /* NVHTarGzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00CF898F403375B4D3A19AA63FF58535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		0483F8C3598E23FC2480834340A8C2A3 /* NVHTarFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2689BF0086549486F5F080B6433F89 /* NVHTarFile.m */; };
-		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1367A7233DC137EFE08BE1B503C99FDF /* Error.swift */; };
-		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83888D3153A703C68AA6C357135E2071 /* Timeline.swift */; };
-		1B0351301F15F3A2D11B00C2A694F06D /* Light-Untar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DD1127AAC9F97D333D1A8CC22A9E1C /* Light-Untar-dummy.m */; };
-		2034BD7D91A9A2818E1DE9B777ADAA70 /* NSFileManager+Tar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC571A3B16DEC0F0A2108F5846F666 /* NSFileManager+Tar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		24A84911D8F90D9F105ACD2DD69A0E45 /* DCTar.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D9CF13E6DF4E36A2B9833890FE32 /* DCTar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		26392188358C150BF072D6014D33810C /* NVHGzipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1B628F75DED59235159F5140D6EC4B /* NVHGzipFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BB78BF81A397BB12B0461CE3C00CBA6 /* NSData+Godzippa.m in Sources */ = {isa = PBXBuildFile; fileRef = AE22A470E66AE01C713D3026513146E9 /* NSData+Godzippa.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C85ED8823135FE8A28E1CC3CD8C066 /* Validation.swift */; };
-		2F905ED582EA1DDB3F78E650CF437533 /* NVHTarGzip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BFCAD32A3F03A2A4310A406145A09C /* NVHTarGzip-dummy.m */; };
-		337C25D2E692E7815C0DCA9DD8C499B9 /* NSFileManager+NVHFileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C17AC74BB97F292D20FFD423ED47D8D /* NSFileManager+NVHFileSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116A2FC0D563A5B9B056ED1CD8E5ACF /* NetworkReachabilityManager.swift */; };
-		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138A6703B8BBDD32C3F3B6E544FB3AA7 /* ResponseSerialization.swift */; };
-		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827E2020A8B4D417C68576F94FA5BB8 /* Manager.swift */; };
-		4BA17F4876FE16AA6C381CC2AFD131A4 /* Light-Untar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7ED747B493360AAF4ED5CC663DCFDA /* Light-Untar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4ECE86D4EAD82CFC22742904FB6A244E /* Pods-DDDownloadGzipTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A43DA62937C6C8AD22427BA0424B5A5 /* Pods-DDDownloadGzipTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59BEABEBF347DA901835FD3D85F89B12 /* Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = B136FDB870FF33BE5244C9406175A26C /* Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07464C8520053373455A6FF3366CDF /* Upload.swift */; };
-		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D173F97A5DFAFC151275355BBC2A1E /* Download.swift */; };
-		61917B9207BCF0919D1114E21B529722 /* NSData+Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE7C76757F9918175F1688C6AEB1439 /* NSData+Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DD41B66B22EB690E30C034E3455FA5 /* Response.swift */; };
-		681FE289F0B63103A852FD1D0F759B94 /* Godzippa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB48992998F0D3E6D81BEAB559A9CE9 /* Godzippa-dummy.m */; };
-		6987353757D0FB8D037859726CDE8860 /* DCTar.h in Headers */ = {isa = PBXBuildFile; fileRef = 12412E0E722A906F3B1D25265B7D6C6A /* DCTar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72881B4BFAA31F868E87F43A2704EE72 /* NVHProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA0FD1DFF230DFEDC03B7015A79F316 /* NVHProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B45090F27E15633D78CC8B4B6429DDE /* NVHProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D400A97F1DA5AB3ACEBB45F0A319DA /* NVHProgress.m */; };
-		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5049AE7DA83386EF61225D691D7D920 /* ServerTrustPolicy.swift */; };
-		7C3FCFA293A19B136074846F94ABFB0E /* NVHTarFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 75A051AD2295F1E9284FF09A815BD595 /* NVHTarFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7ED77338ABE3EF8C170FD2FF8985B835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		803183D28989061CF9305459E3E8D827 /* NSFileManager+Godzippa.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60DCB6E566E66108CFD4EA5770EFC4 /* NSFileManager+Godzippa.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		89F22E12BD984906570CD1F6D5797177 /* NVHFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B626090A3F112C79C7F34FDF49D46 /* NVHFile.m */; };
-		8BAC0AE6758BA94C504E06FE87D38430 /* Godzippa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75610CC346E622099359ED843394AAA1 /* Godzippa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95714F147AF85E77D3B254888B9EB1D7 /* Alamofire.swift */; };
-		90056322AD4FFE0722175546471AC371 /* NVHTarGzip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF6903B44DC92608731C5B6432D39FF2 /* NVHTarGzip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0036D34ABCD708AF31000D7538550239 /* NVHTarGzip.h in Headers */ = {isa = PBXBuildFile; fileRef = C60173FBBCC73B9E2430DD3B847D42B8 /* NVHTarGzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D58C7D5D3750CAC513CBFF83370B57 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F761D9E54F20530E37FFA996685580B /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0483F8C3598E23FC2480834340A8C2A3 /* NVHTarFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CA97E24CBDDD179917B79917F2DED4 /* NVHTarFile.m */; };
+		095406039B4D371E48D08B38A2975AC8 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4900F2D5E9863A7A8CE6C1866B24487A /* Error.swift */; };
+		0C35F414FE7BD5642399FDD44634DC89 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = CF44F166B7E30B77F5C9A73509C191AD /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		102E2DB3B4EAA097D796961FCC39ABCE /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = BAB923FA72E3777904AC62BB3381C08B /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		16102E4E35FAA0FC4161282FECE56469 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6444B1052EBC06E5C8930F153A7900 /* Timeline.swift */; };
+		1E39DAE5D5985334B64DCEAD0347F6DC /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D3469B687009D9045C5E065D753070 /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2157876196DCD4BB20D284C3F33EB4AA /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C32D402EEE75801BF1E3335E458CBA20 /* SSZipArchive-dummy.m */; };
+		26392188358C150BF072D6014D33810C /* NVHGzipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7FDF5131C7EE07DAE8EC74F5F281DE /* NVHGzipFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		272132FA647FA98E5768F6C81860783B /* DCTar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDE36370F67F0C62174BF1F34539828 /* DCTar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		284E5C147E176B2FF55215E34E392085 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DB315ABFAA0957EFF7B92929F2809B /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2940D7E5C27249B7537A442C05EEC92D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2AD8FFE8B1C1184F5FA0411D2EE2CA0E /* aes_via_ace.h in Headers */ = {isa = PBXBuildFile; fileRef = C71CF37D128B0FAB2B588516FFFE7814 /* aes_via_ace.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D3405986FC586FA6C0A5E0B6BA7E64E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5269FAF1664C3D7DED570C25BD8A02 /* Validation.swift */; };
+		2E735F91AF906B793C819D4CC9CB4014 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 329243BE636AFDA7B81AC0E45A931636 /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2EE4CB6551B671FBE685B087DA4C22EF /* tarkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F1FEE23DC0148C4F1BFC39FDD5184A /* tarkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F905ED582EA1DDB3F78E650CF437533 /* NVHTarGzip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9439BCAAE0B903FBB0AD632B03DF9F19 /* NVHTarGzip-dummy.m */; };
+		33538B2CF4FEFDC7289E5D7D8DF2763A /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0649F9E43F4771F8430F3B7F8ED0C8 /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		337C25D2E692E7815C0DCA9DD8C499B9 /* NSFileManager+NVHFileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F77AAE97D96CD3EFC80BCB0EE365094 /* NSFileManager+NVHFileSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34CCDCA848A701466256BC2927DA8856 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D1E1CABA1F66FC498A81DD2578E3C2 /* NetworkReachabilityManager.swift */; };
+		3E2C202020A93CC2D05D7A429942235D /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 732E9F3BCB2A2F701A7ADF0D556189AA /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3EA8F215C9C1432D74E5CCA4834AA8C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C52869CEA62105BBD8172F0DAD5D3A /* ResponseSerialization.swift */; };
+		4081EA628AF0B73AC51FFB9D7AB3B89E /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891CB5A1CA73A95E6449A42FB457525B /* Manager.swift */; };
+		4223BF35BAC86C9C49133762F23B3EAD /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = 8120D503C9280CDE6FE47115B22D9AC9 /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		455B75A9941208AE0B93AEA0991749B8 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 549F17F6617D882E5B1D0B5D9847B448 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		467F01DB8B5692D291CC10AF221EBAD9 /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = 225C8758E797D42C9B0FAC1FF053E769 /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46A63FE652A9BA2517C56C4A7B4E66FE /* mztools.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C79CA079F92269EE5F746C6663D1F45 /* mztools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		490C86CA4B5AA20BB407ED72E1686BBD /* tarkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED805EACB0B70CAFD0E0DF28B47875 /* tarkit-dummy.m */; };
+		4EB05150C2C95F9ADED6A2A744F922D0 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 44C340FE680EFEFD2D04E17B35E80AF9 /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5BC19E6E0F199276003F0AF96838BCE5 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF49338A11236A428187760608679D9 /* Upload.swift */; };
+		5C551229AAB6C8359F5D0A6923AC3FAF /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 05676190964ACB8114ECB73770008FD8 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CB05FBCB32D21E194B5ECF680CB6AE0 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D53E383FBB04B8CCA88827D7AF328E /* Download.swift */; };
+		62E8346F03C03E7F4D631361F325689E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD5DB7974BFBD1315EB18DE34CEA38F /* Response.swift */; };
+		65E64D78A71BE6B59FD9455B9C1AE9D7 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFF2788714543E804C1F5AFD184BC22 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FF41431B547309963A44AB9687285D0 /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 4445C786AC66C9340C2E23D7A11AAB58 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFAE87FA369BF5AE4AC5868FFE41D67 /* entropy.c in Sources */ = {isa = PBXBuildFile; fileRef = 55DA1A6E69353C9BEC4ADCFF7FDE0E07 /* entropy.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		72881B4BFAA31F868E87F43A2704EE72 /* NVHProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A146B56B0B33E3582E0013A44B541D /* NVHProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B45090F27E15633D78CC8B4B6429DDE /* NVHProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D63B4E474E2CAB7AF8AE977FC02C56 /* NVHProgress.m */; };
+		7B48852C4D848FA2DA416A98F6425869 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B588F49C96422508631034655B714E2A /* ServerTrustPolicy.swift */; };
+		7C3FCFA293A19B136074846F94ABFB0E /* NVHTarFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6E685BCAE5AF8C1134B2FD74BD6276 /* NVHTarFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		806BD0ED41C404C10F8D89DE4A028346 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		80DE5762B7BB56EE8816E79370FC2D40 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 24474777EAEF55C480AF3F508DC6DF52 /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82C79BE48317A3B1620B122D45795BAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		89F22E12BD984906570CD1F6D5797177 /* NVHFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 28541540E06E011FE9D55C3E3F1D8D18 /* NVHFile.m */; };
+		89FFACAA0512CA0908CDF53B19CAB422 /* Pods-DDDownloadGzipTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A43DA62937C6C8AD22427BA0424B5A5 /* Pods-DDDownloadGzipTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA19DE2674D9A2743ADA6C2AD94E213 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 42BE26C01ED9240198C5B8F7F9561E78 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB11202167FCDDF1257AAAB1D1FB244 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB372E0052B5E596C1DBF09080E6177 /* Alamofire.swift */; };
+		90056322AD4FFE0722175546471AC371 /* NVHTarGzip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B07A4A22857BD1D4DE4786695A77AF3F /* NVHTarGzip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9018A7B67F4E16A9E81273D5998817BC /* DCTar.m in Sources */ = {isa = PBXBuildFile; fileRef = 657E8F1E18516C63C2DF398FC44DBD5C /* DCTar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 824B19CF62F51D1047730E2554297DE7 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A078ED5457E7F1C523F01640FFAE6D77 /* NVHTarGzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7BEA2A01BE1159C6ACD94FC5EFE599 /* NVHTarGzip.m */; };
-		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF0713957DA157DEEA1B0826663DFB3 /* Result.swift */; };
-		AA3544DB84BEE8C8DD9A4432C815A717 /* tarkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFECC18694908E151F8EF739F05B93 /* tarkit-dummy.m */; };
-		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A2A864EF121D72B30470F2DCD442CF /* Alamofire-dummy.m */; };
-		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B57D30261A9F2DF537DE33522C35DF /* Stream.swift */; };
-		BC54F39E29F715C069A8AF89860285C0 /* NSFileManager+Tar.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A3155FC004B12DC3DEDA7CA80E681E /* NSFileManager+Tar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD758917DAE40B0B5043DF4DF27F9366 /* NSFileManager+Godzippa.h in Headers */ = {isa = PBXBuildFile; fileRef = D02A848E33919F2E6AA57BDFD48DD6A7 /* NSFileManager+Godzippa.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99D7A1D7195495DBE4766F86502400B /* Notifications.swift */; };
-		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F06A08282E4D99AEE65BADC0846BBD /* ParameterEncoding.swift */; };
-		C5DD9228F05B2EDD95D1FE6367323D03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4F3657B2823EC2025CCF9AC0F78968 /* MultipartFormData.swift */; };
-		D28A43880707AA785441F5109623B41F /* NVHGzipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7F7C577D4655068234BD7BC77DB3D8 /* NVHGzipFile.m */; };
-		D2DE98DDEC4D84FCD8770D92A61AFE97 /* NSFileManager+NVHFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = B767BE46F7944E6C25C00096757C5558 /* NSFileManager+NVHFileSize.m */; };
+		94335B0DFB9894DA8D86F6704A983C68 /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = B43ED53A91BBC772441F6307FFE28D10 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9469DF81ECB494E84675969B5E13374C /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C973986C91866A2DFC33B74F73FD05B4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98C27B091F77974CBC4C9D97904F9524 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B637DA9B8B1AF307B7D16A7C5CAD2 /* mztools.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9E576160B16921297E7AC73599BFE270 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = E06B62FB81203A82FA94C29251E3DC42 /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A078ED5457E7F1C523F01640FFAE6D77 /* NVHTarGzip.m in Sources */ = {isa = PBXBuildFile; fileRef = B636A5B12A6A390D64C2B923C7603FB0 /* NVHTarGzip.m */; };
+		AA314156AC500125F4078EE968DB14C6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98981B27F4DA300A8564AFD49A81BFDD /* Result.swift */; };
+		AA5545EB0AF5A4F0B5B9817AD835BCFD /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 062CA5EF84F4E1DCC9ED7D4EFE5AD384 /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADF19C953CE2A7D0B72EC93A81FCCC26 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0F8FC0E6290E006B89BB2BE6FA4730 /* Alamofire-dummy.m */; };
+		AE4CF87C02C042DF13ED5B21C4FDC1E0 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACD76AEB477E4D542DD98615D19722 /* Stream.swift */; };
+		B0105FACC959AA65B71421E0F5063410 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 208F1410A6DB22EC2F64F458D1CF332C /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B189BCD89F5B68F6DE6C777D342DC0A5 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8875396CC26AEC0ECE563FEC2BD5EF05 /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B19C837220B699248FA7A090CE35FCF9 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 40DC76E3A15977974D5948860FACD802 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE41196F6A3903E59C3306FE3F8B43FE /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9BD7218E029CBB233DA6961006E337 /* Notifications.swift */; };
+		C0DB70AB368765DC64BFB5FEA75E0696 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AC5A34AF3095D701F848EDFE949AF6 /* ParameterEncoding.swift */; };
+		C7B6DD7C0456C50289A2C381DFE9FA3F /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C464ABD69AF2350687571F06E44B1F6 /* MultipartFormData.swift */; };
+		C8D5883013B85CC92633D8C1B4C753DD /* entropy.h in Headers */ = {isa = PBXBuildFile; fileRef = C6ABF2F5B71EAE8387E0B73352FED655 /* entropy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D28A43880707AA785441F5109623B41F /* NVHGzipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9709F775CF3F230C02AA6E126E2CFC /* NVHGzipFile.m */; };
+		D2DE98DDEC4D84FCD8770D92A61AFE97 /* NSFileManager+NVHFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAAA89AEC7F2C4B3B98D4FE608730C /* NSFileManager+NVHFileSize.m */; };
+		D4C037AB9ADF6EDA192B368B0E82D5D3 /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = A92CFE08F5B243A1D488F3B44E54A977 /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DF32D013B2C16227662A095A2876BE15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E222813556986E95526090432D94C244 /* tarkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6F940266E7945F05E85471D1336A17 /* tarkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB6B15D64AB1815612598C2B81915A0E /* Pods-DDDownloadGzipTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 919518A3F549668217B47BD9A939BF6A /* Pods-DDDownloadGzipTest-dummy.m */; };
-		EFE10188E8E8AB1856649BD81558AD96 /* NVHFile.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0D250C1D491278285D135B29D3ED43 /* NVHFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA5C8BFDDA22B12116CA99A4FCD0B34 /* Request.swift */; };
-		FB7067C2189E0C83FD64DEE4FE62FC82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E2FB08BFB1B41C527144BBB82313E141 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = F29B4122175D783DE39168DEFB775BB2 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4C4CDA34617C20C77002B92E13C8195 /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24AA07190BC9C76154065839DD1302B5 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9C3E1E52E968CAAA39E722A6F4C583F /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 95CE52F3E235A95F8FE03BD7A6240440 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EC3B4F6FEEE824A2CBCE30CE41B67F47 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 18A2602D7AF7604AEE06FA3C3D2A1CE3 /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EFE10188E8E8AB1856649BD81558AD96 /* NVHFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C79B729FA50311F6A0C85158155EBC2 /* NVHFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE92E8D3813DD26E78E93EEAF6D7E7E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F657E69CBC1921B7C58E03342D2550 /* Request.swift */; };
+		F7DCF6BC209769BE2747C44F35008A51 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 108D58BAC13406A2D8F6BB86CB04DA84 /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB6223EF47A541B0BADC03D29D095640 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = A6355ABDF7480D481D3D7C2B99A42601 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBE51DFD1BAF0FB054C70160AC061FD9 /* Pods-DDDownloadGzipTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 919518A3F549668217B47BD9A939BF6A /* Pods-DDDownloadGzipTest-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		137292217FC0CE4139C30397A9EF028B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C65FDAD7FD324E0723F4294F5BA06F97;
-			remoteInfo = "Light-Untar";
-		};
-		1651BB7B920D803FE8A453032EFFBAC8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8594554B8D76DF916CF695B24A3CD4E;
-			remoteInfo = tarkit;
-		};
-		5EB4652F6C254662C4C24D8970B47468 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4EBE848A47E124A96CA0D7A0C7A5096;
-			remoteInfo = Godzippa;
-		};
-		890D5F4C7A6CC47FAF782C99BB116D5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
-			remoteInfo = Alamofire;
-		};
-		EB9CD1821FE54DADD2363F872AC5C668 /* PBXContainerItemProxy */ = {
+		3B71CD3B335717126BDAB7CB69BBA3B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B31A22BE4BF3DACCCCF7E6884525B120;
 			remoteInfo = NVHTarGzip;
 		};
+		4C63E0C8A1840AEA2CC56E32D8BE2F45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79C040AFDDCE1BCBF6D8B5EB0B85887F;
+			remoteInfo = Alamofire;
+		};
+		62B2E91B7B01439CA26209932B3E90AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE4F62C071F37822AC11B67B26FFB123;
+			remoteInfo = SSZipArchive;
+		};
+		7C10432E5D2238C11FA5CC440798D1C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0732866BE79292977B81258A2ABC71E;
+			remoteInfo = tarkit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002D879328ADE9A11BC8549502733288 /* NVHTarGzip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NVHTarGzip.modulemap; sourceTree = "<group>"; };
-		01603F7484404F9165E77EB3DB339DD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DAAA89AEC7F2C4B3B98D4FE608730C /* NSFileManager+NVHFileSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+NVHFileSize.m"; path = "Classes/NSFileManager+NVHFileSize.m"; sourceTree = "<group>"; };
 		0454038E3A2C893B5221B6035A188724 /* Pods-DDDownloadGzipTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDDownloadGzipTest-resources.sh"; sourceTree = "<group>"; };
+		05676190964ACB8114ECB73770008FD8 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		05D3469B687009D9045C5E065D753070 /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		062CA5EF84F4E1DCC9ED7D4EFE5AD384 /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/aes/brg_types.h; sourceTree = "<group>"; };
 		0862B9B121D68A0E3A3CD47A2D4BB8E2 /* Pods-DDDownloadGzipTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDownloadGzipTest.release.xcconfig"; sourceTree = "<group>"; };
-		093BDD37F4039FB507E31387F4FBA7C9 /* Godzippa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Godzippa-prefix.pch"; sourceTree = "<group>"; };
 		0A43DA62937C6C8AD22427BA0424B5A5 /* Pods-DDDownloadGzipTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDDownloadGzipTest-umbrella.h"; sourceTree = "<group>"; };
-		12412E0E722A906F3B1D25265B7D6C6A /* DCTar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCTar.h; sourceTree = "<group>"; };
+		0A57E56DF8CA5D0FB7B1A7FED7AC1338 /* Pods_DDDownloadGzipTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDownloadGzipTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFC02C81A83F5C332B1DAC8A4F31310 /* NVHTarGzip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVHTarGzip-prefix.pch"; sourceTree = "<group>"; };
+		0C2F2F38F9C9E0753374D5A462E44182 /* tarkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tarkit-prefix.pch"; sourceTree = "<group>"; };
+		0C79B729FA50311F6A0C85158155EBC2 /* NVHFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHFile.h; path = Classes/NVHFile.h; sourceTree = "<group>"; };
+		108D58BAC13406A2D8F6BB86CB04DA84 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha1.c; path = SSZipArchive/aes/sha1.c; sourceTree = "<group>"; };
 		131F568441CCE3E47B1DA10419150F48 /* Pods-DDDownloadGzipTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDDownloadGzipTest-frameworks.sh"; sourceTree = "<group>"; };
-		1367A7233DC137EFE08BE1B503C99FDF /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
-		138A6703B8BBDD32C3F3B6E544FB3AA7 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		15E34D40A26FCBDE00F7745408B777E3 /* tarkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = tarkit.modulemap; sourceTree = "<group>"; };
-		1827E2020A8B4D417C68576F94FA5BB8 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		1C08A74ACB5ECC9BC69D85547F260FAC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C4F3657B2823EC2025CCF9AC0F78968 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		22079F2AD3D89B85DB0E90375DE56516 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		243C38FDB04557D11D51F6993A993CC6 /* NVHTarGzip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVHTarGzip.xcconfig; sourceTree = "<group>"; };
-		24D10CA1B6B3B63BF0DF499297F43847 /* Light-Untar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Light-Untar.xcconfig"; sourceTree = "<group>"; };
-		26B57D30261A9F2DF537DE33522C35DF /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
-		2ECC494BD88C3932DBEE61D79A46C88E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F2689BF0086549486F5F080B6433F89 /* NVHTarFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHTarFile.m; path = Classes/NVHTarFile.m; sourceTree = "<group>"; };
-		3C17AC74BB97F292D20FFD423ED47D8D /* NSFileManager+NVHFileSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+NVHFileSize.h"; path = "Classes/NSFileManager+NVHFileSize.h"; sourceTree = "<group>"; };
-		40C85ED8823135FE8A28E1CC3CD8C066 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		41DD41B66B22EB690E30C034E3455FA5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		44F06A08282E4D99AEE65BADC0846BBD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		47398C8A7B0207894FA4BF4ACDC7DBDA /* NVHTarGzip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NVHTarGzip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17995B006D215CB9D4CAE45AD5A6FB35 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		18A2602D7AF7604AEE06FA3C3D2A1CE3 /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		1C79CA079F92269EE5F746C6663D1F45 /* mztools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mztools.h; path = SSZipArchive/minizip/mztools.h; sourceTree = "<group>"; };
+		208F1410A6DB22EC2F64F458D1CF332C /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		225C8758E797D42C9B0FAC1FF053E769 /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/aes/pwd2key.h; sourceTree = "<group>"; };
+		24474777EAEF55C480AF3F508DC6DF52 /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/aes/brg_endian.h; sourceTree = "<group>"; };
+		24AA07190BC9C76154065839DD1302B5 /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
+		26804FE74CD8B0F083869B232DBD7B82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A146B56B0B33E3582E0013A44B541D /* NVHProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHProgress.h; path = Classes/NVHProgress.h; sourceTree = "<group>"; };
+		27D1E1CABA1F66FC498A81DD2578E3C2 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		28541540E06E011FE9D55C3E3F1D8D18 /* NVHFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHFile.m; path = Classes/NVHFile.m; sourceTree = "<group>"; };
+		2C9709F775CF3F230C02AA6E126E2CFC /* NVHGzipFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHGzipFile.m; path = Classes/NVHGzipFile.m; sourceTree = "<group>"; };
+		2E6444B1052EBC06E5C8930F153A7900 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		2F77AAE97D96CD3EFC80BCB0EE365094 /* NSFileManager+NVHFileSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+NVHFileSize.h"; path = "Classes/NSFileManager+NVHFileSize.h"; sourceTree = "<group>"; };
+		31DB315ABFAA0957EFF7B92929F2809B /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		329243BE636AFDA7B81AC0E45A931636 /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		3362149E248E92A6DD9E725A5EB1FD01 /* tarkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = tarkit.modulemap; sourceTree = "<group>"; };
+		343963B82CC0AF8F21AA723F30CCBD31 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D63B4E474E2CAB7AF8AE977FC02C56 /* NVHProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHProgress.m; path = Classes/NVHProgress.m; sourceTree = "<group>"; };
+		3B5269FAF1664C3D7DED570C25BD8A02 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		3D7FDF5131C7EE07DAE8EC74F5F281DE /* NVHGzipFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHGzipFile.h; path = Classes/NVHGzipFile.h; sourceTree = "<group>"; };
+		3F761D9E54F20530E37FFA996685580B /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		40DC76E3A15977974D5948860FACD802 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aescrypt.c; path = SSZipArchive/aes/aescrypt.c; sourceTree = "<group>"; };
+		413937B119B86972EE6C25CEEFD13DE8 /* NVHTarGzip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NVHTarGzip.modulemap; sourceTree = "<group>"; };
+		42BE26C01ED9240198C5B8F7F9561E78 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		4445C786AC66C9340C2E23D7A11AAB58 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		44C2253FA6B28864E2EE743DB48A0918 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C340FE680EFEFD2D04E17B35E80AF9 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aestab.c; path = SSZipArchive/aes/aestab.c; sourceTree = "<group>"; };
+		4557C2456584632694AB9CABCF4600AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		480AA411523CB37C25017F8CF7AE71D1 /* Pods-DDDownloadGzipTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDDownloadGzipTest.debug.xcconfig"; sourceTree = "<group>"; };
-		4E3745C38A8F0F6E2736B3186E9A36CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4900F2D5E9863A7A8CE6C1866B24487A /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		52ACD76AEB477E4D542DD98615D19722 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		549F17F6617D882E5B1D0B5D9847B448 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		55DA1A6E69353C9BEC4ADCFF7FDE0E07 /* entropy.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = entropy.c; path = SSZipArchive/aes/entropy.c; sourceTree = "<group>"; };
 		58EBDCF8AAD22F01C619700998CC1B36 /* Pods-DDDownloadGzipTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DDDownloadGzipTest.modulemap"; sourceTree = "<group>"; };
-		5972499BA3329FB2BE3B3054EAE1FAD1 /* NVHTarGzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHTarGzip.h; path = Classes/NVHTarGzip.h; sourceTree = "<group>"; };
-		5D60DCB6E566E66108CFD4EA5770EFC4 /* NSFileManager+Godzippa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+Godzippa.m"; path = "Godzippa/NSFileManager+Godzippa.m"; sourceTree = "<group>"; };
-		69A2D9CF13E6DF4E36A2B9833890FE32 /* DCTar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DCTar.m; sourceTree = "<group>"; };
-		6A9B626090A3F112C79C7F34FDF49D46 /* NVHFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHFile.m; path = Classes/NVHFile.m; sourceTree = "<group>"; };
-		6B86F51508AB45AB803CC6F3F14E7F2F /* Godzippa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Godzippa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BDC571A3B16DEC0F0A2108F5846F666 /* NSFileManager+Tar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+Tar.m"; path = "Light-Untar/NSFileManager+Tar.m"; sourceTree = "<group>"; };
-		6C1B628F75DED59235159F5140D6EC4B /* NVHGzipFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHGzipFile.h; path = Classes/NVHGzipFile.h; sourceTree = "<group>"; };
-		6C97123A77060E5DBB6FA2A7AD0B08E1 /* NVHTarGzip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVHTarGzip-prefix.pch"; sourceTree = "<group>"; };
-		6D07464C8520053373455A6FF3366CDF /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
-		71A2A864EF121D72B30470F2DCD442CF /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		75610CC346E622099359ED843394AAA1 /* Godzippa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Godzippa-umbrella.h"; sourceTree = "<group>"; };
-		75A051AD2295F1E9284FF09A815BD595 /* NVHTarFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHTarFile.h; path = Classes/NVHTarFile.h; sourceTree = "<group>"; };
-		78D173F97A5DFAFC151275355BBC2A1E /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
-		7AB207EA4E5AF245BE8838D3F3CC7324 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
-		7DF0713957DA157DEEA1B0826663DFB3 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		7F7BEA2A01BE1159C6ACD94FC5EFE599 /* NVHTarGzip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHTarGzip.m; path = Classes/NVHTarGzip.m; sourceTree = "<group>"; };
-		824B19CF62F51D1047730E2554297DE7 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		82BFCAD32A3F03A2A4310A406145A09C /* NVHTarGzip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVHTarGzip-dummy.m"; sourceTree = "<group>"; };
-		83888D3153A703C68AA6C357135E2071 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		84FFECC18694908E151F8EF739F05B93 /* tarkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tarkit-dummy.m"; sourceTree = "<group>"; };
-		85D29C08241F62D5DD2B0C3EC9250910 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		8EA5C8BFDDA22B12116CA99A4FCD0B34 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		90CD1FDD453773DEEE04DE7A9FEA51E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF49338A11236A428187760608679D9 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		5C464ABD69AF2350687571F06E44B1F6 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		5CB372E0052B5E596C1DBF09080E6177 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		5E7B637DA9B8B1AF307B7D16A7C5CAD2 /* mztools.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mztools.c; path = SSZipArchive/minizip/mztools.c; sourceTree = "<group>"; };
+		657E8F1E18516C63C2DF398FC44DBD5C /* DCTar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DCTar.m; sourceTree = "<group>"; };
+		687B56DCA20E6276758B87AFFB72CDC0 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		6CDE36370F67F0C62174BF1F34539828 /* DCTar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DCTar.h; sourceTree = "<group>"; };
+		70605F81B550A38A46B7A137C8FC2FFB /* NVHTarGzip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVHTarGzip.xcconfig; sourceTree = "<group>"; };
+		70AC5A34AF3095D701F848EDFE949AF6 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		71C52869CEA62105BBD8172F0DAD5D3A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		72F5969DCE6BE2B9DD305BDD235A5800 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		732E9F3BCB2A2F701A7ADF0D556189AA /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aeskey.c; path = SSZipArchive/aes/aeskey.c; sourceTree = "<group>"; };
+		77964F5A9A0CB26DE120BBC802310736 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFAEC867FCB50DFBBC3F3047343D1C5 /* tarkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = tarkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8120D503C9280CDE6FE47115B22D9AC9 /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = prng.c; path = SSZipArchive/aes/prng.c; sourceTree = "<group>"; };
+		859AC6AA976E0283E8DE29C0B3403EC8 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		8875396CC26AEC0ECE563FEC2BD5EF05 /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/aes/aesopt.h; sourceTree = "<group>"; };
+		891CB5A1CA73A95E6449A42FB457525B /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
 		919518A3F549668217B47BD9A939BF6A /* Pods-DDDownloadGzipTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDDownloadGzipTest-dummy.m"; sourceTree = "<group>"; };
-		91DD1127AAC9F97D333D1A8CC22A9E1C /* Light-Untar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Light-Untar-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95714F147AF85E77D3B254888B9EB1D7 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		9A6F940266E7945F05E85471D1336A17 /* tarkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tarkit-umbrella.h"; sourceTree = "<group>"; };
-		9C7ED747B493360AAF4ED5CC663DCFDA /* Light-Untar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Light-Untar-umbrella.h"; sourceTree = "<group>"; };
-		A5049AE7DA83386EF61225D691D7D920 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		9439BCAAE0B903FBB0AD632B03DF9F19 /* NVHTarGzip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVHTarGzip-dummy.m"; sourceTree = "<group>"; };
+		94D53E383FBB04B8CCA88827D7AF328E /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		95CE52F3E235A95F8FE03BD7A6240440 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fileenc.c; path = SSZipArchive/aes/fileenc.c; sourceTree = "<group>"; };
+		98981B27F4DA300A8564AFD49A81BFDD /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		9A6E685BCAE5AF8C1134B2FD74BD6276 /* NVHTarFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHTarFile.h; path = Classes/NVHTarFile.h; sourceTree = "<group>"; };
+		A3B60C6B75EA3A54B6BE86046D55B676 /* NVHTarGzip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NVHTarGzip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50F87955C9FA2B346574AFB1653E9F4 /* Pods-DDDownloadGzipTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDDownloadGzipTest-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ADB48992998F0D3E6D81BEAB559A9CE9 /* Godzippa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Godzippa-dummy.m"; sourceTree = "<group>"; };
-		ADE7C76757F9918175F1688C6AEB1439 /* NSData+Godzippa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Godzippa.h"; path = "Godzippa/NSData+Godzippa.h"; sourceTree = "<group>"; };
-		AE22A470E66AE01C713D3026513146E9 /* NSData+Godzippa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Godzippa.m"; path = "Godzippa/NSData+Godzippa.m"; sourceTree = "<group>"; };
-		B136FDB870FF33BE5244C9406175A26C /* Godzippa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Godzippa.h; path = Godzippa/Godzippa.h; sourceTree = "<group>"; };
-		B2A3155FC004B12DC3DEDA7CA80E681E /* NSFileManager+Tar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+Tar.h"; path = "Light-Untar/NSFileManager+Tar.h"; sourceTree = "<group>"; };
-		B767BE46F7944E6C25C00096757C5558 /* NSFileManager+NVHFileSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+NVHFileSize.m"; path = "Classes/NSFileManager+NVHFileSize.m"; sourceTree = "<group>"; };
-		B79610BAA1232EF4B1069DC2C63A592E /* Light-Untar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Light-Untar.modulemap"; sourceTree = "<group>"; };
-		B99D7A1D7195495DBE4766F86502400B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		A6355ABDF7480D481D3D7C2B99A42601 /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/aes/aestab.h; sourceTree = "<group>"; };
+		A8F657E69CBC1921B7C58E03342D2550 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		A92CFE08F5B243A1D488F3B44E54A977 /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/aes/prng.h; sourceTree = "<group>"; };
+		AAFF2788714543E804C1F5AFD184BC22 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/aes/aes.h; sourceTree = "<group>"; };
+		B07A4A22857BD1D4DE4786695A77AF3F /* NVHTarGzip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVHTarGzip-umbrella.h"; sourceTree = "<group>"; };
+		B0ED805EACB0B70CAFD0E0DF28B47875 /* tarkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "tarkit-dummy.m"; sourceTree = "<group>"; };
+		B3CA97E24CBDDD179917B79917F2DED4 /* NVHTarFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHTarFile.m; path = Classes/NVHTarFile.m; sourceTree = "<group>"; };
+		B43ED53A91BBC772441F6307FFE28D10 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/aes/fileenc.h; sourceTree = "<group>"; };
+		B588F49C96422508631034655B714E2A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		B636A5B12A6A390D64C2B923C7603FB0 /* NVHTarGzip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHTarGzip.m; path = Classes/NVHTarGzip.m; sourceTree = "<group>"; };
+		BA0649F9E43F4771F8430F3B7F8ED0C8 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/aes/hmac.h; sourceTree = "<group>"; };
+		BAB923FA72E3777904AC62BB3381C08B /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hmac.c; path = SSZipArchive/aes/hmac.c; sourceTree = "<group>"; };
 		BD91004904B8B18A05538EA5FAF71D9B /* Pods-DDDownloadGzipTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDDownloadGzipTest-acknowledgements.plist"; sourceTree = "<group>"; };
-		BF1F735C00EDD6E79251085EB856E875 /* tarkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tarkit-prefix.pch"; sourceTree = "<group>"; };
 		C1BFE1B686E64210D56FBE3C889DE977 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD7F7C577D4655068234BD7BC77DB3D8 /* NVHGzipFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHGzipFile.m; path = Classes/NVHGzipFile.m; sourceTree = "<group>"; };
+		C32D402EEE75801BF1E3335E458CBA20 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		C60173FBBCC73B9E2430DD3B847D42B8 /* NVHTarGzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHTarGzip.h; path = Classes/NVHTarGzip.h; sourceTree = "<group>"; };
+		C6ABF2F5B71EAE8387E0B73352FED655 /* entropy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = entropy.h; path = SSZipArchive/aes/entropy.h; sourceTree = "<group>"; };
+		C6F1FEE23DC0148C4F1BFC39FDD5184A /* tarkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "tarkit-umbrella.h"; sourceTree = "<group>"; };
+		C71CF37D128B0FAB2B588516FFFE7814 /* aes_via_ace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_via_ace.h; path = SSZipArchive/aes/aes_via_ace.h; sourceTree = "<group>"; };
+		C7AE98393D6B1C95EB61BA9B058331D4 /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
+		C973986C91866A2DFC33B74F73FD05B4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF3B4E7731E95DA487838C0AAB1D9BFC /* Pods_DDDownloadGzipTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDDownloadGzipTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D02A848E33919F2E6AA57BDFD48DD6A7 /* NSFileManager+Godzippa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+Godzippa.h"; path = "Godzippa/NSFileManager+Godzippa.h"; sourceTree = "<group>"; };
-		D3D6DB316917D80AFB8341448755BC12 /* Godzippa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Godzippa.xcconfig; sourceTree = "<group>"; };
-		D3E97A2545ECE280EC3A0D9C3EF602D2 /* Godzippa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Godzippa.modulemap; sourceTree = "<group>"; };
-		D7BCFC2F6E79A6726C77176E62E0C837 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8C7AF1CE1D5D70754CE73000737BE0B /* tarkit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tarkit.xcconfig; sourceTree = "<group>"; };
-		D8D400A97F1DA5AB3ACEBB45F0A319DA /* NVHProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHProgress.m; path = Classes/NVHProgress.m; sourceTree = "<group>"; };
-		DF6903B44DC92608731C5B6432D39FF2 /* NVHTarGzip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVHTarGzip-umbrella.h"; sourceTree = "<group>"; };
-		EE439012D9B7F2CF8F8AB505520F28B5 /* Light_Untar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Light_Untar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFA0FD1DFF230DFEDC03B7015A79F316 /* NVHProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHProgress.h; path = Classes/NVHProgress.h; sourceTree = "<group>"; };
-		F116A2FC0D563A5B9B056ED1CD8E5ACF /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		F7DEE61A49FA0B5E42CB9422668DDB0B /* tarkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = tarkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9DE4F3356F62005E68B983DAC3A9496 /* Light-Untar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Light-Untar-prefix.pch"; sourceTree = "<group>"; };
-		FA0D250C1D491278285D135B29D3ED43 /* NVHFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHFile.h; path = Classes/NVHFile.h; sourceTree = "<group>"; };
+		CF0F8FC0E6290E006B89BB2BE6FA4730 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		CF44F166B7E30B77F5C9A73509C191AD /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pwd2key.c; path = SSZipArchive/aes/pwd2key.c; sourceTree = "<group>"; };
+		DE9BD7218E029CBB233DA6961006E337 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		E06B62FB81203A82FA94C29251E3DC42 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/aes/sha1.h; sourceTree = "<group>"; };
+		E98688316E4DE58A7A173BA92CDF4F0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD5DB7974BFBD1315EB18DE34CEA38F /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		F29B4122175D783DE39168DEFB775BB2 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		F43E6C709B193544B6D4EBCFB2F23D83 /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		F61DAF1CCEAC4829298E10BD70E8F9C7 /* tarkit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = tarkit.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32535CCA3398E42798EE873F69414707 /* Frameworks */ = {
+		1A3704A69D88A473902440DE8D92C1DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB7067C2189E0C83FD64DEE4FE62FC82 /* Foundation.framework in Frameworks */,
+				2940D7E5C27249B7537A442C05EEC92D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99B5AE9EC32325EB6F66C19D6A45E03F /* Frameworks */ = {
+		28A95E9AAC872556C3BAE936FBB88072 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5DD9228F05B2EDD95D1FE6367323D03 /* Foundation.framework in Frameworks */,
+				806BD0ED41C404C10F8D89DE4A028346 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FEB088386C08F077E4D12311A34114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C79BE48317A3B1620B122D45795BAE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,22 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				91C09AC2A52ED69A27C8D923139A006F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B4D0DA81E96B4217DE53E31B366AD708 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00CF898F403375B4D3A19AA63FF58535 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB4F11C94EB7EF0B02A021BDFD76E46A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7ED77338ABE3EF8C170FD2FF8985B835 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,30 +273,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		010876DED468EBEE461072B891EEE092 /* tarkit */ = {
-			isa = PBXGroup;
-			children = (
-				12412E0E722A906F3B1D25265B7D6C6A /* DCTar.h */,
-				69A2D9CF13E6DF4E36A2B9833890FE32 /* DCTar.m */,
-				0B78D9863C2A8DD56F84FC60403E81AC /* Support Files */,
-			);
-			path = tarkit;
-			sourceTree = "<group>";
-		};
-		0B78D9863C2A8DD56F84FC60403E81AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				01603F7484404F9165E77EB3DB339DD1 /* Info.plist */,
-				15E34D40A26FCBDE00F7745408B777E3 /* tarkit.modulemap */,
-				D8C7AF1CE1D5D70754CE73000737BE0B /* tarkit.xcconfig */,
-				84FFECC18694908E151F8EF739F05B93 /* tarkit-dummy.m */,
-				BF1F735C00EDD6E79251085EB856E875 /* tarkit-prefix.pch */,
-				9A6F940266E7945F05E85471D1336A17 /* tarkit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/tarkit";
-			sourceTree = "<group>";
-		};
 		1681E70DB2D02AA61BA2EDBB57620FC6 /* Pods-DDDownloadGzipTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +291,20 @@
 			path = "Target Support Files/Pods-DDDownloadGzipTest";
 			sourceTree = "<group>";
 		};
+		3299DA48D48B3CB285B1222AE3EC7F38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4557C2456584632694AB9CABCF4600AB /* Info.plist */,
+				413937B119B86972EE6C25CEEFD13DE8 /* NVHTarGzip.modulemap */,
+				70605F81B550A38A46B7A137C8FC2FFB /* NVHTarGzip.xcconfig */,
+				9439BCAAE0B903FBB0AD632B03DF9F19 /* NVHTarGzip-dummy.m */,
+				0AFC02C81A83F5C332B1DAC8A4F31310 /* NVHTarGzip-prefix.pch */,
+				B07A4A22857BD1D4DE4786695A77AF3F /* NVHTarGzip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NVHTarGzip";
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,43 +313,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3E572937A4CC197B4104D98C74412EDF /* Support Files */ = {
+		3F2C398286B19A086EF62D9A4D337CC8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3E97A2545ECE280EC3A0D9C3EF602D2 /* Godzippa.modulemap */,
-				D3D6DB316917D80AFB8341448755BC12 /* Godzippa.xcconfig */,
-				ADB48992998F0D3E6D81BEAB559A9CE9 /* Godzippa-dummy.m */,
-				093BDD37F4039FB507E31387F4FBA7C9 /* Godzippa-prefix.pch */,
-				75610CC346E622099359ED843394AAA1 /* Godzippa-umbrella.h */,
-				90CD1FDD453773DEEE04DE7A9FEA51E0 /* Info.plist */,
+				859AC6AA976E0283E8DE29C0B3403EC8 /* Alamofire.modulemap */,
+				72F5969DCE6BE2B9DD305BDD235A5800 /* Alamofire.xcconfig */,
+				CF0F8FC0E6290E006B89BB2BE6FA4730 /* Alamofire-dummy.m */,
+				17995B006D215CB9D4CAE45AD5A6FB35 /* Alamofire-prefix.pch */,
+				C973986C91866A2DFC33B74F73FD05B4 /* Alamofire-umbrella.h */,
+				44C2253FA6B28864E2EE743DB48A0918 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Godzippa";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
-		43FCDE136347EDAA30B71B7239C5BCD8 /* Pods */ = {
+		42F34054D8517753C5B66F855BCF5177 /* tarkit */ = {
 			isa = PBXGroup;
 			children = (
-				E6A0BFC9BCC5095A894579640B1F3184 /* Alamofire */,
-				53F018B2CC9DA0E5865A14616AC5D643 /* Godzippa */,
-				734B0E9E3DA7E83EDEAEDFA81462FDA8 /* Light-Untar */,
-				6B165C05DD7CE6C9916B97EA605ADFC2 /* NVHTarGzip */,
-				010876DED468EBEE461072B891EEE092 /* tarkit */,
+				6CDE36370F67F0C62174BF1F34539828 /* DCTar.h */,
+				657E8F1E18516C63C2DF398FC44DBD5C /* DCTar.m */,
+				96C95AA4C1AE2610A064EC0B1CABBEC2 /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		53F018B2CC9DA0E5865A14616AC5D643 /* Godzippa */ = {
-			isa = PBXGroup;
-			children = (
-				B136FDB870FF33BE5244C9406175A26C /* Godzippa.h */,
-				ADE7C76757F9918175F1688C6AEB1439 /* NSData+Godzippa.h */,
-				AE22A470E66AE01C713D3026513146E9 /* NSData+Godzippa.m */,
-				D02A848E33919F2E6AA57BDFD48DD6A7 /* NSFileManager+Godzippa.h */,
-				5D60DCB6E566E66108CFD4EA5770EFC4 /* NSFileManager+Godzippa.m */,
-				3E572937A4CC197B4104D98C74412EDF /* Support Files */,
-			);
-			path = Godzippa;
+			path = tarkit;
 			sourceTree = "<group>";
 		};
 		58C4A64A7119DCF229E54554E7709C1A /* Targets Support Files */ = {
@@ -341,75 +345,43 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		66A8AEC218318BC6296DF3D4C9CF143B /* Products */ = {
+		7AB9A3F94E64BC87CA4C5B42FB996060 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				1C08A74ACB5ECC9BC69D85547F260FAC /* Alamofire.framework */,
-				6B86F51508AB45AB803CC6F3F14E7F2F /* Godzippa.framework */,
-				EE439012D9B7F2CF8F8AB505520F28B5 /* Light_Untar.framework */,
-				47398C8A7B0207894FA4BF4ACDC7DBDA /* NVHTarGzip.framework */,
-				CF3B4E7731E95DA487838C0AAB1D9BFC /* Pods_DDDownloadGzipTest.framework */,
-				F7DEE61A49FA0B5E42CB9422668DDB0B /* tarkit.framework */,
+				5CB372E0052B5E596C1DBF09080E6177 /* Alamofire.swift */,
+				94D53E383FBB04B8CCA88827D7AF328E /* Download.swift */,
+				4900F2D5E9863A7A8CE6C1866B24487A /* Error.swift */,
+				891CB5A1CA73A95E6449A42FB457525B /* Manager.swift */,
+				5C464ABD69AF2350687571F06E44B1F6 /* MultipartFormData.swift */,
+				27D1E1CABA1F66FC498A81DD2578E3C2 /* NetworkReachabilityManager.swift */,
+				DE9BD7218E029CBB233DA6961006E337 /* Notifications.swift */,
+				70AC5A34AF3095D701F848EDFE949AF6 /* ParameterEncoding.swift */,
+				A8F657E69CBC1921B7C58E03342D2550 /* Request.swift */,
+				ECD5DB7974BFBD1315EB18DE34CEA38F /* Response.swift */,
+				71C52869CEA62105BBD8172F0DAD5D3A /* ResponseSerialization.swift */,
+				98981B27F4DA300A8564AFD49A81BFDD /* Result.swift */,
+				B588F49C96422508631034655B714E2A /* ServerTrustPolicy.swift */,
+				52ACD76AEB477E4D542DD98615D19722 /* Stream.swift */,
+				2E6444B1052EBC06E5C8930F153A7900 /* Timeline.swift */,
+				5AF49338A11236A428187760608679D9 /* Upload.swift */,
+				3B5269FAF1664C3D7DED570C25BD8A02 /* Validation.swift */,
+				3F2C398286B19A086EF62D9A4D337CC8 /* Support Files */,
 			);
-			name = Products;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		6B165C05DD7CE6C9916B97EA605ADFC2 /* NVHTarGzip */ = {
+		7AFDBF8643C0A634DB10FE8E40D9C886 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3C17AC74BB97F292D20FFD423ED47D8D /* NSFileManager+NVHFileSize.h */,
-				B767BE46F7944E6C25C00096757C5558 /* NSFileManager+NVHFileSize.m */,
-				FA0D250C1D491278285D135B29D3ED43 /* NVHFile.h */,
-				6A9B626090A3F112C79C7F34FDF49D46 /* NVHFile.m */,
-				6C1B628F75DED59235159F5140D6EC4B /* NVHGzipFile.h */,
-				CD7F7C577D4655068234BD7BC77DB3D8 /* NVHGzipFile.m */,
-				EFA0FD1DFF230DFEDC03B7015A79F316 /* NVHProgress.h */,
-				D8D400A97F1DA5AB3ACEBB45F0A319DA /* NVHProgress.m */,
-				75A051AD2295F1E9284FF09A815BD595 /* NVHTarFile.h */,
-				2F2689BF0086549486F5F080B6433F89 /* NVHTarFile.m */,
-				5972499BA3329FB2BE3B3054EAE1FAD1 /* NVHTarGzip.h */,
-				7F7BEA2A01BE1159C6ACD94FC5EFE599 /* NVHTarGzip.m */,
-				71EC60D8CC194B840287072D6A942041 /* Support Files */,
-			);
-			path = NVHTarGzip;
-			sourceTree = "<group>";
-		};
-		71EC60D8CC194B840287072D6A942041 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D7BCFC2F6E79A6726C77176E62E0C837 /* Info.plist */,
-				002D879328ADE9A11BC8549502733288 /* NVHTarGzip.modulemap */,
-				243C38FDB04557D11D51F6993A993CC6 /* NVHTarGzip.xcconfig */,
-				82BFCAD32A3F03A2A4310A406145A09C /* NVHTarGzip-dummy.m */,
-				6C97123A77060E5DBB6FA2A7AD0B08E1 /* NVHTarGzip-prefix.pch */,
-				DF6903B44DC92608731C5B6432D39FF2 /* NVHTarGzip-umbrella.h */,
+				E98688316E4DE58A7A173BA92CDF4F0C /* Info.plist */,
+				C7AE98393D6B1C95EB61BA9B058331D4 /* SSZipArchive.modulemap */,
+				F43E6C709B193544B6D4EBCFB2F23D83 /* SSZipArchive.xcconfig */,
+				C32D402EEE75801BF1E3335E458CBA20 /* SSZipArchive-dummy.m */,
+				687B56DCA20E6276758B87AFFB72CDC0 /* SSZipArchive-prefix.pch */,
+				24AA07190BC9C76154065839DD1302B5 /* SSZipArchive-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/NVHTarGzip";
-			sourceTree = "<group>";
-		};
-		734B0E9E3DA7E83EDEAEDFA81462FDA8 /* Light-Untar */ = {
-			isa = PBXGroup;
-			children = (
-				B2A3155FC004B12DC3DEDA7CA80E681E /* NSFileManager+Tar.h */,
-				6BDC571A3B16DEC0F0A2108F5846F666 /* NSFileManager+Tar.m */,
-				755A0EBAC57D72F3126CE311669C08A3 /* Support Files */,
-			);
-			path = "Light-Untar";
-			sourceTree = "<group>";
-		};
-		755A0EBAC57D72F3126CE311669C08A3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E3745C38A8F0F6E2736B3186E9A36CF /* Info.plist */,
-				B79610BAA1232EF4B1069DC2C63A592E /* Light-Untar.modulemap */,
-				24D10CA1B6B3B63BF0DF499297F43847 /* Light-Untar.xcconfig */,
-				91DD1127AAC9F97D333D1A8CC22A9E1C /* Light-Untar-dummy.m */,
-				F9DE4F3356F62005E68B983DAC3A9496 /* Light-Untar-prefix.pch */,
-				9C7ED747B493360AAF4ED5CC663DCFDA /* Light-Untar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Light-Untar";
+			path = "../Target Support Files/SSZipArchive";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -417,10 +389,24 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				43FCDE136347EDAA30B71B7239C5BCD8 /* Pods */,
-				66A8AEC218318BC6296DF3D4C9CF143B /* Products */,
+				E0D4E9B480B284ABB8AD49151012FC9B /* Pods */,
+				DB5601A4EE4C556EABF595A5B68D5A95 /* Products */,
 				58C4A64A7119DCF229E54554E7709C1A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		96C95AA4C1AE2610A064EC0B1CABBEC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26804FE74CD8B0F083869B232DBD7B82 /* Info.plist */,
+				3362149E248E92A6DD9E725A5EB1FD01 /* tarkit.modulemap */,
+				F61DAF1CCEAC4829298E10BD70E8F9C7 /* tarkit.xcconfig */,
+				B0ED805EACB0B70CAFD0E0DF28B47875 /* tarkit-dummy.m */,
+				0C2F2F38F9C9E0753374D5A462E44182 /* tarkit-prefix.pch */,
+				C6F1FEE23DC0148C4F1BFC39FDD5184A /* tarkit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/tarkit";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -431,54 +417,108 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E6A0BFC9BCC5095A894579640B1F3184 /* Alamofire */ = {
+		DB5601A4EE4C556EABF595A5B68D5A95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				95714F147AF85E77D3B254888B9EB1D7 /* Alamofire.swift */,
-				78D173F97A5DFAFC151275355BBC2A1E /* Download.swift */,
-				1367A7233DC137EFE08BE1B503C99FDF /* Error.swift */,
-				1827E2020A8B4D417C68576F94FA5BB8 /* Manager.swift */,
-				1C4F3657B2823EC2025CCF9AC0F78968 /* MultipartFormData.swift */,
-				F116A2FC0D563A5B9B056ED1CD8E5ACF /* NetworkReachabilityManager.swift */,
-				B99D7A1D7195495DBE4766F86502400B /* Notifications.swift */,
-				44F06A08282E4D99AEE65BADC0846BBD /* ParameterEncoding.swift */,
-				8EA5C8BFDDA22B12116CA99A4FCD0B34 /* Request.swift */,
-				41DD41B66B22EB690E30C034E3455FA5 /* Response.swift */,
-				138A6703B8BBDD32C3F3B6E544FB3AA7 /* ResponseSerialization.swift */,
-				7DF0713957DA157DEEA1B0826663DFB3 /* Result.swift */,
-				A5049AE7DA83386EF61225D691D7D920 /* ServerTrustPolicy.swift */,
-				26B57D30261A9F2DF537DE33522C35DF /* Stream.swift */,
-				83888D3153A703C68AA6C357135E2071 /* Timeline.swift */,
-				6D07464C8520053373455A6FF3366CDF /* Upload.swift */,
-				40C85ED8823135FE8A28E1CC3CD8C066 /* Validation.swift */,
-				F471DD06788605A5C282D7BFFEEDDA7C /* Support Files */,
+				343963B82CC0AF8F21AA723F30CCBD31 /* Alamofire.framework */,
+				A3B60C6B75EA3A54B6BE86046D55B676 /* NVHTarGzip.framework */,
+				0A57E56DF8CA5D0FB7B1A7FED7AC1338 /* Pods_DDDownloadGzipTest.framework */,
+				77964F5A9A0CB26DE120BBC802310736 /* SSZipArchive.framework */,
+				7DFAEC867FCB50DFBBC3F3047343D1C5 /* tarkit.framework */,
 			);
-			path = Alamofire;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		F471DD06788605A5C282D7BFFEEDDA7C /* Support Files */ = {
+		E0D4E9B480B284ABB8AD49151012FC9B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				22079F2AD3D89B85DB0E90375DE56516 /* Alamofire.modulemap */,
-				7AB207EA4E5AF245BE8838D3F3CC7324 /* Alamofire.xcconfig */,
-				71A2A864EF121D72B30470F2DCD442CF /* Alamofire-dummy.m */,
-				85D29C08241F62D5DD2B0C3EC9250910 /* Alamofire-prefix.pch */,
-				824B19CF62F51D1047730E2554297DE7 /* Alamofire-umbrella.h */,
-				2ECC494BD88C3932DBEE61D79A46C88E /* Info.plist */,
+				7AB9A3F94E64BC87CA4C5B42FB996060 /* Alamofire */,
+				F1EDCC03A688B10ED0ED0690AD9E3D9F /* NVHTarGzip */,
+				FCC47E98E72E9172DE445AD85E780C54 /* SSZipArchive */,
+				42F34054D8517753C5B66F855BCF5177 /* tarkit */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1EDCC03A688B10ED0ED0690AD9E3D9F /* NVHTarGzip */ = {
+			isa = PBXGroup;
+			children = (
+				2F77AAE97D96CD3EFC80BCB0EE365094 /* NSFileManager+NVHFileSize.h */,
+				03DAAA89AEC7F2C4B3B98D4FE608730C /* NSFileManager+NVHFileSize.m */,
+				0C79B729FA50311F6A0C85158155EBC2 /* NVHFile.h */,
+				28541540E06E011FE9D55C3E3F1D8D18 /* NVHFile.m */,
+				3D7FDF5131C7EE07DAE8EC74F5F281DE /* NVHGzipFile.h */,
+				2C9709F775CF3F230C02AA6E126E2CFC /* NVHGzipFile.m */,
+				26A146B56B0B33E3582E0013A44B541D /* NVHProgress.h */,
+				38D63B4E474E2CAB7AF8AE977FC02C56 /* NVHProgress.m */,
+				9A6E685BCAE5AF8C1134B2FD74BD6276 /* NVHTarFile.h */,
+				B3CA97E24CBDDD179917B79917F2DED4 /* NVHTarFile.m */,
+				C60173FBBCC73B9E2430DD3B847D42B8 /* NVHTarGzip.h */,
+				B636A5B12A6A390D64C2B923C7603FB0 /* NVHTarGzip.m */,
+				3299DA48D48B3CB285B1222AE3EC7F38 /* Support Files */,
+			);
+			path = NVHTarGzip;
+			sourceTree = "<group>";
+		};
+		FCC47E98E72E9172DE445AD85E780C54 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF2788714543E804C1F5AFD184BC22 /* aes.h */,
+				C71CF37D128B0FAB2B588516FFFE7814 /* aes_via_ace.h */,
+				40DC76E3A15977974D5948860FACD802 /* aescrypt.c */,
+				732E9F3BCB2A2F701A7ADF0D556189AA /* aeskey.c */,
+				8875396CC26AEC0ECE563FEC2BD5EF05 /* aesopt.h */,
+				44C340FE680EFEFD2D04E17B35E80AF9 /* aestab.c */,
+				A6355ABDF7480D481D3D7C2B99A42601 /* aestab.h */,
+				24474777EAEF55C480AF3F508DC6DF52 /* brg_endian.h */,
+				062CA5EF84F4E1DCC9ED7D4EFE5AD384 /* brg_types.h */,
+				05D3469B687009D9045C5E065D753070 /* crypt.h */,
+				55DA1A6E69353C9BEC4ADCFF7FDE0E07 /* entropy.c */,
+				C6ABF2F5B71EAE8387E0B73352FED655 /* entropy.h */,
+				95CE52F3E235A95F8FE03BD7A6240440 /* fileenc.c */,
+				B43ED53A91BBC772441F6307FFE28D10 /* fileenc.h */,
+				BAB923FA72E3777904AC62BB3381C08B /* hmac.c */,
+				BA0649F9E43F4771F8430F3B7F8ED0C8 /* hmac.h */,
+				329243BE636AFDA7B81AC0E45A931636 /* ioapi.c */,
+				F29B4122175D783DE39168DEFB775BB2 /* ioapi.h */,
+				5E7B637DA9B8B1AF307B7D16A7C5CAD2 /* mztools.c */,
+				1C79CA079F92269EE5F746C6663D1F45 /* mztools.h */,
+				8120D503C9280CDE6FE47115B22D9AC9 /* prng.c */,
+				A92CFE08F5B243A1D488F3B44E54A977 /* prng.h */,
+				CF44F166B7E30B77F5C9A73509C191AD /* pwd2key.c */,
+				225C8758E797D42C9B0FAC1FF053E769 /* pwd2key.h */,
+				108D58BAC13406A2D8F6BB86CB04DA84 /* sha1.c */,
+				E06B62FB81203A82FA94C29251E3DC42 /* sha1.h */,
+				42BE26C01ED9240198C5B8F7F9561E78 /* SSZipArchive.h */,
+				31DB315ABFAA0957EFF7B92929F2809B /* SSZipArchive.m */,
+				3F761D9E54F20530E37FFA996685580B /* SSZipCommon.h */,
+				549F17F6617D882E5B1D0B5D9847B448 /* unzip.c */,
+				208F1410A6DB22EC2F64F458D1CF332C /* unzip.h */,
+				18A2602D7AF7604AEE06FA3C3D2A1CE3 /* zip.c */,
+				05676190964ACB8114ECB73770008FD8 /* zip.h */,
+				4445C786AC66C9340C2E23D7A11AAB58 /* ZipArchive.h */,
+				7AFDBF8643C0A634DB10FE8E40D9C886 /* Support Files */,
+			);
+			path = SSZipArchive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		27DEFA0D95CB7AFEB19BED8495DF4F8F /* Headers */ = {
+		57A4E20E7B8A7596A28483AE8630CED7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6987353757D0FB8D037859726CDE8860 /* DCTar.h in Headers */,
-				E222813556986E95526090432D94C244 /* tarkit-umbrella.h in Headers */,
+				89FFACAA0512CA0908CDF53B19CAB422 /* Pods-DDDownloadGzipTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BCF48C379A9049FBFE27CFEFBE0B658 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272132FA647FA98E5768F6C81860783B /* DCTar.h in Headers */,
+				2EE4CB6551B671FBE685B087DA4C22EF /* tarkit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,12 +536,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B1358EFC01F5EC6D922F87B22E36390E /* Headers */ = {
+		B4B8739437D876666C775359C043E5B1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA17F4876FE16AA6C381CC2AFD131A4 /* Light-Untar-umbrella.h in Headers */,
-				BC54F39E29F715C069A8AF89860285C0 /* NSFileManager+Tar.h in Headers */,
+				65E64D78A71BE6B59FD9455B9C1AE9D7 /* aes.h in Headers */,
+				2AD8FFE8B1C1184F5FA0411D2EE2CA0E /* aes_via_ace.h in Headers */,
+				B189BCD89F5B68F6DE6C777D342DC0A5 /* aesopt.h in Headers */,
+				FB6223EF47A541B0BADC03D29D095640 /* aestab.h in Headers */,
+				80DE5762B7BB56EE8816E79370FC2D40 /* brg_endian.h in Headers */,
+				AA5545EB0AF5A4F0B5B9817AD835BCFD /* brg_types.h in Headers */,
+				1E39DAE5D5985334B64DCEAD0347F6DC /* crypt.h in Headers */,
+				C8D5883013B85CC92633D8C1B4C753DD /* entropy.h in Headers */,
+				94335B0DFB9894DA8D86F6704A983C68 /* fileenc.h in Headers */,
+				33538B2CF4FEFDC7289E5D7D8DF2763A /* hmac.h in Headers */,
+				E2FB08BFB1B41C527144BBB82313E141 /* ioapi.h in Headers */,
+				46A63FE652A9BA2517C56C4A7B4E66FE /* mztools.h in Headers */,
+				D4C037AB9ADF6EDA192B368B0E82D5D3 /* prng.h in Headers */,
+				467F01DB8B5692D291CC10AF221EBAD9 /* pwd2key.h in Headers */,
+				9E576160B16921297E7AC73599BFE270 /* sha1.h in Headers */,
+				E4C4CDA34617C20C77002B92E13C8195 /* SSZipArchive-umbrella.h in Headers */,
+				8AA19DE2674D9A2743ADA6C2AD94E213 /* SSZipArchive.h in Headers */,
+				01D58C7D5D3750CAC513CBFF83370B57 /* SSZipCommon.h in Headers */,
+				B0105FACC959AA65B71421E0F5063410 /* unzip.h in Headers */,
+				5C551229AAB6C8359F5D0A6923AC3FAF /* zip.h in Headers */,
+				6FF41431B547309963A44AB9687285D0 /* ZipArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,50 +572,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAF78C55CE838335A3AE5DCA22C42A80 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4ECE86D4EAD82CFC22742904FB6A244E /* Pods-DDDownloadGzipTest-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF2E05036422BBB0C68D169F50021BDF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8BAC0AE6758BA94C504E06FE87D38430 /* Godzippa-umbrella.h in Headers */,
-				59BEABEBF347DA901835FD3D85F89B12 /* Godzippa.h in Headers */,
-				61917B9207BCF0919D1114E21B529722 /* NSData+Godzippa.h in Headers */,
-				BD758917DAE40B0B5043DF4DF27F9366 /* NSFileManager+Godzippa.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		60DC0B8A5446E81013BF8D6DDFED86BE /* Pods-DDDownloadGzipTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0F04ED70C1B3E8DBD1F794DEC2D5F6F0 /* Build configuration list for PBXNativeTarget "Pods-DDDownloadGzipTest" */;
-			buildPhases = (
-				69998B73E136949EF20F335F0AAEC4CF /* Sources */,
-				CB4F11C94EB7EF0B02A021BDFD76E46A /* Frameworks */,
-				FAF78C55CE838335A3AE5DCA22C42A80 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0CC47F086784B09B5BA3778D23A778AB /* PBXTargetDependency */,
-				85D87ACAD24D9F2D524973A24B486948 /* PBXTargetDependency */,
-				7A274A42C43E2080C54678A49925A661 /* PBXTargetDependency */,
-				48614CDADF9386FA01C60F821B1FD0C2 /* PBXTargetDependency */,
-				466499568D1AF7398D7667716CB0894E /* PBXTargetDependency */,
-			);
-			name = "Pods-DDDownloadGzipTest";
-			productName = "Pods-DDDownloadGzipTest";
-			productReference = CF3B4E7731E95DA487838C0AAB1D9BFC /* Pods_DDDownloadGzipTest.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CFB42910790CF0BDBCCEBAACD6B9367 /* Build configuration list for PBXNativeTarget "Alamofire" */;
@@ -571,24 +589,45 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 1C08A74ACB5ECC9BC69D85547F260FAC /* Alamofire.framework */;
+			productReference = 343963B82CC0AF8F21AA723F30CCBD31 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A4EBE848A47E124A96CA0D7A0C7A5096 /* Godzippa */ = {
+		A991AFF37B3F141D1EFB98A4772E5B9F /* Pods-DDDownloadGzipTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C2463274ACF4999FE7CC1F265930C8A /* Build configuration list for PBXNativeTarget "Godzippa" */;
+			buildConfigurationList = F735DE5559BF341D87679B1DC6780C52 /* Build configuration list for PBXNativeTarget "Pods-DDDownloadGzipTest" */;
 			buildPhases = (
-				6880FC2D0BFB4B314CEBB57F552CAC91 /* Sources */,
-				32535CCA3398E42798EE873F69414707 /* Frameworks */,
-				FF2E05036422BBB0C68D169F50021BDF /* Headers */,
+				4BA2DCA4A6D8DDAB4C02AA3060DA13E8 /* Sources */,
+				28A95E9AAC872556C3BAE936FBB88072 /* Frameworks */,
+				57A4E20E7B8A7596A28483AE8630CED7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CC56FE95AD0E1C473CF2F0E0488449F /* PBXTargetDependency */,
+				1E99EA94A83818B606B98EDE045D5947 /* PBXTargetDependency */,
+				360ED5CB43777C55C0E8EDB7258BEEA6 /* PBXTargetDependency */,
+				4AD6E724A36CD8722E3CCAF0B476A699 /* PBXTargetDependency */,
+			);
+			name = "Pods-DDDownloadGzipTest";
+			productName = "Pods-DDDownloadGzipTest";
+			productReference = 0A57E56DF8CA5D0FB7B1A7FED7AC1338 /* Pods_DDDownloadGzipTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B0732866BE79292977B81258A2ABC71E /* tarkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A04694D1FBA5F8EC2DECFF46FCC0ADA /* Build configuration list for PBXNativeTarget "tarkit" */;
+			buildPhases = (
+				41BF01579F7DA647383B2CD29CCADEC9 /* Sources */,
+				1A3704A69D88A473902440DE8D92C1DB /* Frameworks */,
+				6BCF48C379A9049FBFE27CFEFBE0B658 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Godzippa;
-			productName = Godzippa;
-			productReference = 6B86F51508AB45AB803CC6F3F14E7F2F /* Godzippa.framework */;
+			name = tarkit;
+			productName = tarkit;
+			productReference = 7DFAEC867FCB50DFBBC3F3047343D1C5 /* tarkit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B31A22BE4BF3DACCCCF7E6884525B120 /* NVHTarGzip */ = {
@@ -605,41 +644,24 @@
 			);
 			name = NVHTarGzip;
 			productName = NVHTarGzip;
-			productReference = 47398C8A7B0207894FA4BF4ACDC7DBDA /* NVHTarGzip.framework */;
+			productReference = A3B60C6B75EA3A54B6BE86046D55B676 /* NVHTarGzip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C65FDAD7FD324E0723F4294F5BA06F97 /* Light-Untar */ = {
+		DE4F62C071F37822AC11B67B26FFB123 /* SSZipArchive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DFFBC49729FB34C48E1CF9FB067C0DC /* Build configuration list for PBXNativeTarget "Light-Untar" */;
+			buildConfigurationList = 7CEE96A8F1AFDFD4D32CF917231A3B79 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
 			buildPhases = (
-				2D172B70B4807FF3B29FFF3AA0F9702A /* Sources */,
-				99B5AE9EC32325EB6F66C19D6A45E03F /* Frameworks */,
-				B1358EFC01F5EC6D922F87B22E36390E /* Headers */,
+				2DC0C536DB9E7914AE67A34162272979 /* Sources */,
+				44FEB088386C08F077E4D12311A34114 /* Frameworks */,
+				B4B8739437D876666C775359C043E5B1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Light-Untar";
-			productName = "Light-Untar";
-			productReference = EE439012D9B7F2CF8F8AB505520F28B5 /* Light_Untar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E8594554B8D76DF916CF695B24A3CD4E /* tarkit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6EC64957566D7B9E93CE1244D34180D /* Build configuration list for PBXNativeTarget "tarkit" */;
-			buildPhases = (
-				4822CA8A8CE7D6F55F2E469E2DB128B5 /* Sources */,
-				B4D0DA81E96B4217DE53E31B366AD708 /* Frameworks */,
-				27DEFA0D95CB7AFEB19BED8495DF4F8F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = tarkit;
-			productName = tarkit;
-			productReference = F7DEE61A49FA0B5E42CB9422668DDB0B /* tarkit.framework */;
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = 77964F5A9A0CB26DE120BBC802310736 /* SSZipArchive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -659,27 +681,39 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 66A8AEC218318BC6296DF3D4C9CF143B /* Products */;
+			productRefGroup = DB5601A4EE4C556EABF595A5B68D5A95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */,
-				A4EBE848A47E124A96CA0D7A0C7A5096 /* Godzippa */,
-				C65FDAD7FD324E0723F4294F5BA06F97 /* Light-Untar */,
 				B31A22BE4BF3DACCCCF7E6884525B120 /* NVHTarGzip */,
-				60DC0B8A5446E81013BF8D6DDFED86BE /* Pods-DDDownloadGzipTest */,
-				E8594554B8D76DF916CF695B24A3CD4E /* tarkit */,
+				A991AFF37B3F141D1EFB98A4772E5B9F /* Pods-DDDownloadGzipTest */,
+				DE4F62C071F37822AC11B67B26FFB123 /* SSZipArchive */,
+				B0732866BE79292977B81258A2ABC71E /* tarkit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D172B70B4807FF3B29FFF3AA0F9702A /* Sources */ = {
+		2DC0C536DB9E7914AE67A34162272979 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B0351301F15F3A2D11B00C2A694F06D /* Light-Untar-dummy.m in Sources */,
-				2034BD7D91A9A2818E1DE9B777ADAA70 /* NSFileManager+Tar.m in Sources */,
+				B19C837220B699248FA7A090CE35FCF9 /* aescrypt.c in Sources */,
+				3E2C202020A93CC2D05D7A429942235D /* aeskey.c in Sources */,
+				4EB05150C2C95F9ADED6A2A744F922D0 /* aestab.c in Sources */,
+				6FFAE87FA369BF5AE4AC5868FFE41D67 /* entropy.c in Sources */,
+				E9C3E1E52E968CAAA39E722A6F4C583F /* fileenc.c in Sources */,
+				102E2DB3B4EAA097D796961FCC39ABCE /* hmac.c in Sources */,
+				2E735F91AF906B793C819D4CC9CB4014 /* ioapi.c in Sources */,
+				98C27B091F77974CBC4C9D97904F9524 /* mztools.c in Sources */,
+				4223BF35BAC86C9C49133762F23B3EAD /* prng.c in Sources */,
+				0C35F414FE7BD5642399FDD44634DC89 /* pwd2key.c in Sources */,
+				F7DCF6BC209769BE2747C44F35008A51 /* sha1.c in Sources */,
+				2157876196DCD4BB20D284C3F33EB4AA /* SSZipArchive-dummy.m in Sources */,
+				284E5C147E176B2FF55215E34E392085 /* SSZipArchive.m in Sources */,
+				455B75A9941208AE0B93AEA0991749B8 /* unzip.c in Sources */,
+				EC3B4F6FEEE824A2CBCE30CE41B67F47 /* zip.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,30 +731,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4822CA8A8CE7D6F55F2E469E2DB128B5 /* Sources */ = {
+		41BF01579F7DA647383B2CD29CCADEC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A84911D8F90D9F105ACD2DD69A0E45 /* DCTar.m in Sources */,
-				AA3544DB84BEE8C8DD9A4432C815A717 /* tarkit-dummy.m in Sources */,
+				9018A7B67F4E16A9E81273D5998817BC /* DCTar.m in Sources */,
+				490C86CA4B5AA20BB407ED72E1686BBD /* tarkit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6880FC2D0BFB4B314CEBB57F552CAC91 /* Sources */ = {
+		4BA2DCA4A6D8DDAB4C02AA3060DA13E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				681FE289F0B63103A852FD1D0F759B94 /* Godzippa-dummy.m in Sources */,
-				2BB78BF81A397BB12B0461CE3C00CBA6 /* NSData+Godzippa.m in Sources */,
-				803183D28989061CF9305459E3E8D827 /* NSFileManager+Godzippa.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		69998B73E136949EF20F335F0AAEC4CF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB6B15D64AB1815612598C2B81915A0E /* Pods-DDDownloadGzipTest-dummy.m in Sources */,
+				FBE51DFD1BAF0FB054C70160AC061FD9 /* Pods-DDDownloadGzipTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,75 +776,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0CC47F086784B09B5BA3778D23A778AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
-			targetProxy = 890D5F4C7A6CC47FAF782C99BB116D5B /* PBXContainerItemProxy */;
-		};
-		466499568D1AF7398D7667716CB0894E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = tarkit;
-			target = E8594554B8D76DF916CF695B24A3CD4E /* tarkit */;
-			targetProxy = 1651BB7B920D803FE8A453032EFFBAC8 /* PBXContainerItemProxy */;
-		};
-		48614CDADF9386FA01C60F821B1FD0C2 /* PBXTargetDependency */ = {
+		1E99EA94A83818B606B98EDE045D5947 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NVHTarGzip;
 			target = B31A22BE4BF3DACCCCF7E6884525B120 /* NVHTarGzip */;
-			targetProxy = EB9CD1821FE54DADD2363F872AC5C668 /* PBXContainerItemProxy */;
+			targetProxy = 3B71CD3B335717126BDAB7CB69BBA3B5 /* PBXContainerItemProxy */;
 		};
-		7A274A42C43E2080C54678A49925A661 /* PBXTargetDependency */ = {
+		360ED5CB43777C55C0E8EDB7258BEEA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Light-Untar";
-			target = C65FDAD7FD324E0723F4294F5BA06F97 /* Light-Untar */;
-			targetProxy = 137292217FC0CE4139C30397A9EF028B /* PBXContainerItemProxy */;
+			name = SSZipArchive;
+			target = DE4F62C071F37822AC11B67B26FFB123 /* SSZipArchive */;
+			targetProxy = 62B2E91B7B01439CA26209932B3E90AE /* PBXContainerItemProxy */;
 		};
-		85D87ACAD24D9F2D524973A24B486948 /* PBXTargetDependency */ = {
+		4AD6E724A36CD8722E3CCAF0B476A699 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Godzippa;
-			target = A4EBE848A47E124A96CA0D7A0C7A5096 /* Godzippa */;
-			targetProxy = 5EB4652F6C254662C4C24D8970B47468 /* PBXContainerItemProxy */;
+			name = tarkit;
+			target = B0732866BE79292977B81258A2ABC71E /* tarkit */;
+			targetProxy = 7C10432E5D2238C11FA5CC440798D1C4 /* PBXContainerItemProxy */;
+		};
+		6CC56FE95AD0E1C473CF2F0E0488449F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 79C040AFDDCE1BCBF6D8B5EB0B85887F /* Alamofire */;
+			targetProxy = 4C63E0C8A1840AEA2CC56E32D8BE2F45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10998DA42699A774D1600BEB6C0CFF2B /* Release */ = {
+		12DC338D3D6B2F31D098E6E876B21D99 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0862B9B121D68A0E3A3CD47A2D4BB8E2 /* Pods-DDDownloadGzipTest.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DDDownloadGzipTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DDDownloadGzipTest/Pods-DDDownloadGzipTest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DDDownloadGzipTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		25603E5636513C6E41244902C05125D2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8C7AF1CE1D5D70754CE73000737BE0B /* tarkit.xcconfig */;
+			baseConfigurationReference = F61DAF1CCEAC4829298E10BD70E8F9C7 /* tarkit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -847,9 +832,67 @@
 			};
 			name = Release;
 		};
+		1AAA3BC899B30139153EC1692CBAF570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61DAF1CCEAC4829298E10BD70E8F9C7 /* tarkit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/tarkit/tarkit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/tarkit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/tarkit/tarkit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = tarkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E6555D098462EB4173BAA6E503CC0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43E6C709B193544B6D4EBCFB2F23D83 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		32AD5F8918CA8B349E4671410FA624C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AB207EA4E5AF245BE8838D3F3CC7324 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 72F5969DCE6BE2B9DD305BDD235A5800 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -868,35 +911,6 @@
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3971EE1213A9A88CBBBDD068CF305240 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3D6DB316917D80AFB8341448755BC12 /* Godzippa.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Godzippa/Godzippa-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Godzippa/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Godzippa/Godzippa.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Godzippa;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -947,38 +961,71 @@
 			};
 			name = Debug;
 		};
-		6CC6B9EE34B39E301F71D4EC8F491C8D /* Debug */ = {
+		4A237AD4D94C5E0FBBC0E0F5BF4FA94D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8C7AF1CE1D5D70754CE73000737BE0B /* tarkit.xcconfig */;
+			baseConfigurationReference = 0862B9B121D68A0E3A3CD47A2D4BB8E2 /* Pods-DDDownloadGzipTest.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/tarkit/tarkit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/tarkit/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DDDownloadGzipTest/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/tarkit/tarkit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = tarkit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDDownloadGzipTest/Pods-DDDownloadGzipTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DDDownloadGzipTest;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		4DEE87877B47AA89F39FA649829CB629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43E6C709B193544B6D4EBCFB2F23D83 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		75218111E718FACE36F771E8ABECDB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AB207EA4E5AF245BE8838D3F3CC7324 /* Alamofire.xcconfig */;
+			baseConfigurationReference = 72F5969DCE6BE2B9DD305BDD235A5800 /* Alamofire.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1006,38 +1053,9 @@
 			};
 			name = Debug;
 		};
-		89C5FCE4C2558EFB21A9DF98DC526963 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3D6DB316917D80AFB8341448755BC12 /* Godzippa.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Godzippa/Godzippa-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Godzippa/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Godzippa/Godzippa.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Godzippa;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8DACCDD7C2E12E92B5CD8CD9C11CA968 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 243C38FDB04557D11D51F6993A993CC6 /* NVHTarGzip.xcconfig */;
+			baseConfigurationReference = 70605F81B550A38A46B7A137C8FC2FFB /* NVHTarGzip.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1063,40 +1081,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		A77B36DC3F663D3467C964AEC69F46F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 480AA411523CB37C25017F8CF7AE71D1 /* Pods-DDDownloadGzipTest.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DDDownloadGzipTest/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DDDownloadGzipTest/Pods-DDDownloadGzipTest.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DDDownloadGzipTest;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1136,9 +1120,9 @@
 			};
 			name = Release;
 		};
-		ACA406BE0351F44C913707CC1CD52002 /* Debug */ = {
+		F57CE640E8439BEE8E6A259A48A7BE24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24D10CA1B6B3B63BF0DF499297F43847 /* Light-Untar.xcconfig */;
+			baseConfigurationReference = 480AA411523CB37C25017F8CF7AE71D1 /* Pods-DDDownloadGzipTest.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1149,54 +1133,30 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Light-Untar/Light-Untar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Light-Untar/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DDDownloadGzipTest/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Light-Untar/Light-Untar.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DDDownloadGzipTest/Pods-DDDownloadGzipTest.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Light_Untar;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DDDownloadGzipTest;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D92E4E43CE9C9A9037E1F1D4709FD568 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24D10CA1B6B3B63BF0DF499297F43847 /* Light-Untar.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Light-Untar/Light-Untar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Light-Untar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Light-Untar/Light-Untar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Light_Untar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F8132F73F09A71E6FD32530D37AB5856 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 243C38FDB04557D11D51F6993A993CC6 /* NVHTarGzip.xcconfig */;
+			baseConfigurationReference = 70605F81B550A38A46B7A137C8FC2FFB /* NVHTarGzip.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1226,29 +1186,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0C2463274ACF4999FE7CC1F265930C8A /* Build configuration list for PBXNativeTarget "Godzippa" */ = {
+		0A04694D1FBA5F8EC2DECFF46FCC0ADA /* Build configuration list for PBXNativeTarget "tarkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89C5FCE4C2558EFB21A9DF98DC526963 /* Debug */,
-				3971EE1213A9A88CBBBDD068CF305240 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0DFFBC49729FB34C48E1CF9FB067C0DC /* Build configuration list for PBXNativeTarget "Light-Untar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ACA406BE0351F44C913707CC1CD52002 /* Debug */,
-				D92E4E43CE9C9A9037E1F1D4709FD568 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0F04ED70C1B3E8DBD1F794DEC2D5F6F0 /* Build configuration list for PBXNativeTarget "Pods-DDDownloadGzipTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A77B36DC3F663D3467C964AEC69F46F7 /* Debug */,
-				10998DA42699A774D1600BEB6C0CFF2B /* Release */,
+				1AAA3BC899B30139153EC1692CBAF570 /* Debug */,
+				12DC338D3D6B2F31D098E6E876B21D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1280,11 +1222,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6EC64957566D7B9E93CE1244D34180D /* Build configuration list for PBXNativeTarget "tarkit" */ = {
+		7CEE96A8F1AFDFD4D32CF917231A3B79 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6CC6B9EE34B39E301F71D4EC8F491C8D /* Debug */,
-				25603E5636513C6E41244902C05125D2 /* Release */,
+				2E6555D098462EB4173BAA6E503CC0ED /* Debug */,
+				4DEE87877B47AA89F39FA649829CB629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F735DE5559BF341D87679B1DC6780C52 /* Build configuration list for PBXNativeTarget "Pods-DDDownloadGzipTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F57CE640E8439BEE8E6A259A48A7BE24 /* Debug */,
+				4A237AD4D94C5E0FBBC0E0F5BF4FA94D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

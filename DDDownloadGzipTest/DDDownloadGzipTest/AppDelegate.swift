@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
 //        printFile(toPath())
 //        NVHTarTest()
 //        printFile(toPath())
-        WebResourceManager.sharedManager().downloadTest()
+        WebResourceManager.sharedManager().zipDecompress()
 
         return true
     }

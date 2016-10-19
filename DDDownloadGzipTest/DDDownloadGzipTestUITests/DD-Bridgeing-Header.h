@@ -17,3 +17,4 @@
 #import <NVHTarGzip/NVHTarGzip.h>
 //#import <Godzippa/Godzippa.h>
 //#import <Light-Untar/NSFileManager+Tar.h>
+#import <SSZipArhcive/ZipArchive.h>

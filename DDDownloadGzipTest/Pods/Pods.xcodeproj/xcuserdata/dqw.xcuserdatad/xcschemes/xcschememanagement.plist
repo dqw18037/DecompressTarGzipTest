@@ -9,22 +9,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Godzippa.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Light-Untar.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>NVHTarGzip.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-DDDownloadGzipTest.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SSZipArchive.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,17 +32,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>60DC0B8A5446E81013BF8D6DDFED86BE</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A4EBE848A47E124A96CA0D7A0C7A5096</key>
+		<key>A991AFF37B3F141D1EFB98A4772E5B9F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B0732866BE79292977B81258A2ABC71E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C65FDAD7FD324E0723F4294F5BA06F97</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E8594554B8D76DF916CF695B24A3CD4E</key>
+		<key>DE4F62C071F37822AC11B67B26FFB123</key>
 		<dict>
 			<key>primary</key>
 			<true/>

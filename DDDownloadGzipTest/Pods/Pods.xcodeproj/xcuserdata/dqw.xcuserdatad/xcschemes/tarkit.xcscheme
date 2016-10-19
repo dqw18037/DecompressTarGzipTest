@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E8594554B8D76DF916CF695B24A3CD4E'
+               BlueprintIdentifier = 'B0732866BE79292977B81258A2ABC71E'
                BlueprintName = 'tarkit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'tarkit.framework'>
