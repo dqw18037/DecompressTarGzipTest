@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DFCB04902CE23B46F15BC55E99C576891F8F9244" : 9223372036854775807,
+    "9ED9D8160E08573E41EA99F50EAB9E8C03B1D137" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B0E906DA-3CBE-4A65-9B29-96FB2EE93396",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DFCB04902CE23B46F15BC55E99C576891F8F9244" : "..",
+    "9ED9D8160E08573E41EA99F50EAB9E8C03B1D137" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DDTarGzipDecompressTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DDTarGzipDecompressTest.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dqw18037\/DecompressTarGzipTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9ED9D8160E08573E41EA99F50EAB9E8C03B1D137"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dqw18037\/gitTest.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DFCB04902CE23B46F15BC55E99C576891F8F9244"
+    }
+  ]
+}
