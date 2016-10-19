@@ -112,22 +112,42 @@ extension WebResourceManager {
     }
     
     func downloadTest() {
+        printDirectory(webPaht())
         createTemporaryDirectoryIfNeed()
+        printDirectory(webPaht())
+
         printDirectory(downloadPaht())
         printDirectory(tempPath())
-        requestWebResources("http://s0.ipstatp.com/test/ios/WebResource_1019.tar.gz") {[weak self] (error) in
+        requestWebResources("http://s0.ipstatp.com/test/ios/WebResource_flatten.zip") {[weak self] (error) in
             if error == nil {
-                self?.NVHDecompress()
+                self?.zipDecompress()
             }
         }
     }
     
      func zipDecompress() {
+        printDirectory(mainBundlePath())
+        printDirectory(webPaht())
         createTemporaryDirectoryIfNeed()
-//        printDirectory(defaultPath())
+        printDirectory(webPaht())
+        //        printDirectory(defaultPath())
         printDirectory(downloadPaht())
         printDirectory(tempPath())
-//        let sourcePath = downloadPaht() + "/WebResource.zip"
+                let sourcePath = downloadPaht() + "/WebResource.zip"
+//        let sourcePath = NSBundle.mainBundle().bundlePath + "/WebResource.zip"
+        let toPath = tempPath()
+        SSZipArchive.unzipFileAtPath(sourcePath, toDestination: toPath)
+        printDirectory(downloadPaht())
+        printDirectory(tempPath())
+    }
+    
+    func zipDecompressAsync() {
+        
+        createTemporaryDirectoryIfNeed()
+        //        printDirectory(defaultPath())
+        printDirectory(downloadPaht())
+        printDirectory(tempPath())
+        //        let sourcePath = downloadPaht() + "/WebResource.zip"
         let sourcePath = NSBundle.mainBundle().bundlePath + "/WebResource.zip"
         let toPath = tempPath()
         SSZipArchive.unzipFileAtPath(sourcePath, toDestination: toPath)
@@ -153,16 +173,23 @@ extension WebResourceManager {
     }
     
     private func printDirectory(path:String) {
+//        if !NSFileManager.defaultManager().fileExistsAtPath(path) {
+//        
+//        } else {
+//            print("\(path)  文件及不存在")
+//            return
+//        }
         do {
 //            print(path)
             let files = try NSFileManager.defaultManager().contentsOfDirectoryAtPath(path)
            try files.forEach({ (fileName) in
                 let filePath = path + "/\(fileName)"
-               let attr = try fileManager.attributesOfItemAtPath(filePath)
-                let size = attr["NSFileSize"]
+            print(fileName)
+//               let attr = try fileManager.attributesOfItemAtPath(filePath)
+//                let size = attr["NSFileSize"]
 //                let size = 0
-                let data = try NSData(contentsOfFile: filePath, options: .DataReadingUncached)
-                print(" \(fileName) = \(size) = \(data.length)")
+//                let data = try NSData(contentsOfFile: filePath, options: .DataReadingUncached)
+//                print(" \(fileName) = \(size) = \(data.length)")
             })
         } catch {
             
@@ -176,7 +203,7 @@ extension WebResourceManager {
     
     
     private func requestWebResources(URLString: String, resourcessHandler: WebResourcesHandler) {
-        let temporaryFilePath = downloadPaht() + "/WebResource.tar.gz"
+        let temporaryFilePath = downloadPaht() + "/WebResource.zip"
 //        let headers = ["User-Agent": NewsMaster.getWebViewUserAgent(), "referer": ""]
         Alamofire.download(.GET, URLString, headers: nil, destination: {(temporaryURL, response) in
         return NSURL(fileURLWithPath: temporaryFilePath)
